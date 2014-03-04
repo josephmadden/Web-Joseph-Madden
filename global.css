@@ -1,0 +1,143 @@
+body {
+	background: #000;
+	font-family: arial;
+	width: 100%;
+	margin: 0px auto;
+}
+
+#page {
+	background: #FFF;
+}
+
+.container {
+	width: 900px;
+	max-width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header h1 {
+	float: left;
+	margin: 10px;
+	margin-left: 0px;
+}
+
+#footer {
+	margin-top: 0px;
+	background: #000;
+	color: white;
+	font-size: small;
+	clear: both;
+}
+
+#footer .container {
+	padding: 10px 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	float: right;
+	margin: 25px 0px;
+}
+
+.nav-links li {
+	display: inline;
+	width: 100%;
+	margin: 0px 0px 0px 10px;
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+}
+
+.btn {
+	font-size: 36px;
+	font-family: 'Satisfy', cursive;
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFF;
+	padding: 10px 22px;
+	background-color: #000;
+	display: inline-block;*display:inline;zoom:1;
+	transition: background 0.25s linear;
+}
+.btn:hover {
+	background-color: #63B9EE;
+}
+.btn:active {
+	position: relative;
+	top: 0px;
+}
+#IDA {
+	width: 100%;
+	opacity: 1.0;
+	transition: opacity 0.25s linear;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+#IDA:hover {
+	opacity: 0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+/* About Page */
+.about-links {
+	margin: 0px 0px;
+	margin-top: 0px;
+}
+.about-links li {
+	display: inline;
+	width: 100%;
+}
+#cv-black {
+	position: absolute;
+	right: 420px;
+	top: 130px;
+}
+#call-black {
+	position: absolute;
+	right: 207px;
+  top: 135px;
+}
+#coffee {
+	position: absolute;
+	right: 240px;
+	top: 325px;
+}
+#drop-black {
+	position: absolute;
+	right: 207px;
+	top: 470px;  
+}
+#polaroid {
+	position: absolute;
+	right: 580px;
+	top: 470px;
+}
+
+.about-copy {
+	font-size: 1.2em;
+	text-align: left;
+	max-width: 300px;
+	position: absolute;
+	top: 150px;
+}
+
+.clear {
+	clear: both;
+}
+
+@media screen and (max-width: 700px) {
+	#header h1 {
+		display: block;
+		float: none;
+	}
+	.nav-links {
+		display: block;
+		float: none;
+		text-align: left;
+	}
+	.nav-links li {
+		margin-left: 0px;
+	}
+}
