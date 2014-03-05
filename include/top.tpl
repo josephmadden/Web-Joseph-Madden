@@ -13,7 +13,8 @@
 
 		<!-- STYLE -->
 		<link rel="stylesheet" type="text/css" href="/css/reset.css" />
-		<link href="//fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" type="text/css" />
+		<link href="//fonts.googleapis.com/css?family=Satisfy|Bevan" rel="stylesheet" type="text/css" />
+
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
 
 	</head>

@@ -79,6 +79,9 @@ h2 {
 	position: relative;
 	top: 0px;
 }
+.btn.about {
+	font-family: 'Bevan';
+}
 #IDA {
 	width: 100%;
 	opacity: 1.0;
@@ -134,10 +137,7 @@ h2 {
 }
 
 .photo {
-	padding: 3px;
-	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.35);
 	max-width: 100%;
-	box-sizing: border-box;
 }
 
 .clear {

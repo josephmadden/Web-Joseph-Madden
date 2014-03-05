@@ -11,7 +11,7 @@
 	<div id="about-images">
 
 		<div id="">
-			<a class="btn">Click For CV</a>
+			<a class="btn about">CLICK FOR CV</a>
 		</div>
 
 		<a href="#"><img border="0" src="images/cv-black.png" onmouseover="this.src='images/cv-blue.png'" onmouseout="this.src='images/cv-black.png'"></a>
