@@ -2,7 +2,12 @@
 <? require "include/top.tpl"; ?>
 
 <div class="container">
-	<a href="#"><img id="IDA" border="0" src="images/IDA.jpg" /></a>
+	<div class="flexslider">
+		<ul class="slides">
+			<li><img src="/images/home-ida-1800px.jpg" /></li>
+			<li><img src="/images/home-tom-brown-1800px.jpg" /></li>
+		</ul>
+	</div>
 </div>
 
 <? require "include/bottom.tpl"; ?>

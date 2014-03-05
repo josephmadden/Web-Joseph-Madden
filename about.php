@@ -10,8 +10,16 @@
 
 	<div id="about-images">
 
-		<div id="">
+		<div class="about-block">
 			<a class="btn about">CLICK FOR CV</a>
+		</div>
+
+		<div class="about-block">
+			<a class="btn about">CALL ME<br/>MAYBE</a>
+		</div>
+
+		<div class="about-block">
+			<a class="btn about">DROP ME A LINE</a>
 		</div>
 
 		<a href="#"><img border="0" src="images/cv-black.png" onmouseover="this.src='images/cv-blue.png'" onmouseout="this.src='images/cv-black.png'"></a>

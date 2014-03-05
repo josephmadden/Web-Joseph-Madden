@@ -62,6 +62,7 @@ h2 {
 }
 
 .btn {
+	cursor: pointer;
 	font-size: 36px;
 	font-family: 'Satisfy', cursive;
 	font-weight: normal;
@@ -71,26 +72,24 @@ h2 {
 	background-color: #000;
 	display: inline-block;*display:inline;zoom:1;
 	transition: background 0.25s linear;
+	text-align: center;
 }
+
 .btn:hover {
 	background-color: #63B9EE;
 }
+
 .btn:active {
 	position: relative;
 	top: 0px;
 }
+
 .btn.about {
 	font-family: 'Bevan';
 }
-#IDA {
-	width: 100%;
-	opacity: 1.0;
-	transition: opacity 0.25s linear;
-	filter:alpha(opacity=100); /* For IE8 and earlier */
-}
-#IDA:hover {
-	opacity: 0.6;
-	filter:alpha(opacity=60); /* For IE8 and earlier */
+
+.flex-direction-nav {
+	display: none !important;
 }
 
 /* About Page */
@@ -98,30 +97,36 @@ h2 {
 	margin: 0px 0px;
 	margin-top: 0px;
 }
+
 .about-links li {
 	display: inline;
 	width: 100%;
 }
+
 #cv-black {
 	position: absolute;
 	right: 420px;
 	top: 130px;
 }
+
 #call-black {
 	position: absolute;
 	right: 207px;
   top: 135px;
 }
+
 #coffee {
 	position: absolute;
 	right: 240px;
 	top: 325px;
 }
+
 #drop-black {
 	position: absolute;
 	right: 207px;
 	top: 470px;  
 }
+
 #polaroid {
 	position: absolute;
 	right: 580px;

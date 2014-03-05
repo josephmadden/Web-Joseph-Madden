@@ -3,7 +3,7 @@
 	<head>
 
 		<!-- META INFORMATION -->
-		<title>Joseph Madden Visuals<?=isset($page_title)?" | $page_title":""?></title>
+		<title>Joseph Madden <?=isset($page_title)?" | $page_title":""?></title>
 		<meta name="description" content="Joseph Madden Visuals - Why make a living when you can make a legacy?" />
 		<meta name="author" content="Joseph Madden" />
 
@@ -14,8 +14,15 @@
 		<!-- STYLE -->
 		<link rel="stylesheet" type="text/css" href="/css/reset.css" />
 		<link href="//fonts.googleapis.com/css?family=Satisfy|Bevan" rel="stylesheet" type="text/css" />
-
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+		<!-- JAVASCRIPT -->
+		<script type="text/javascript" src="/js/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/bjqs-1.3.min.js"></script>
+
+		<!-- Dlexslider -->
+		<link rel="stylesheet" href="/js/flexslider/flexslider.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="/js/flexslider/jquery.flexslider.js"></script>
 
 	</head>
 
