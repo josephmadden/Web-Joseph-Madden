@@ -1,5 +1,5 @@
+				<div class="clear"></div>
 			</div>
-			<div class="clear"></div>
 			<div id="footer">
 				<div class="container">
 					His name is Djoseph. The year is <?=date("Y")?>.

@@ -3,39 +3,46 @@
 
 <div class="container">
 
-	<p>I'm a creative professional with a focus on visual design and a keen attention to detail.</p>
-	<p>I have a strong background in marketing, communications and multimedia production.</p>
-	<p id="phone"><b>07860882954</b></p>
-	<p id="email"><b>josephmadden@live.co.uk</b></p>
+	<div id="about-text">
+		<p>I'm a creative professional with a focus on visual design and a keen attention to detail.</p>
+		<p>I have a strong background in marketing, communications and multimedia production.</p>
+		<p id="phone-link"><a href="tel:07860882954">07860 882954</b></p>
+		<p id="email-link"><a href="mailto:josephmadden@live.co.uk" target="_blank">josephmadden@live.co.uk</b></p>
+	</div>
 
-	<div id="about-images">
+	<div id="about-images" style="float: right;">
 
-		<div class="about-block">
-			<a class="btn about">CLICK FOR CV</a>
-		</div>
+		<a class="about-block folder">
+			<span class="btn about">CLICK FOR CV</span>
+		</a>
 
-		<div class="about-block">
-			<a class="btn about">CALL ME<br/>MAYBE</a>
-		</div>
+		<a class="about-block phone" href="tel:07860882954">
+			<span class="btn about">CALL ME<br/>MAYBE</span>
+		</a>
 
-		<div class="about-block">
-			<a class="btn about">DROP ME A LINE</a>
-		</div>
+		<div class="about-block mug"></div>
 
-		<a href="#"><img border="0" src="images/cv-black.png" onmouseover="this.src='images/cv-blue.png'" onmouseout="this.src='images/cv-black.png'"></a>
+		<div class="about-block joe"></div>
 
-		<a href="#"><img border="0" src="images/cv-black.png" onmouseover="this.src='images/cv-blue.png'" onmouseout="this.src='images/cv-black.png'"></a>
+		<a class="about-block keyboard">
+			<span class="btn about">DROP ME A LINE</span>
+		</a>
 
 	</div>
 
-	<!--<ul class="about-links">
-		<li><a href="#"><img id="cv-black" border="0" src="images/cv-black.png" onmouseover="this.src='images/cv-blue.png'" onmouseout="this.src='images/cv-black.png'"></a></li>
-		<li><a href="#"><img id="call-black" border="0" src="images/call-black.png" onmouseover="this.src='images/call-blue.png'" onmouseout="this.src='images/call-black.png'"></a></li>
-		<li><a href="#"><img id="coffee" border="0" src="images/coffee.png"></a></li>
-		<li><a href="#"><img id="polaroid" border="0" src="images/polaroid-me.png"></a></li>
-		<li><a href="#"><img id="drop-black" border="0" src="images/drop-black.png" onmouseover="this.src='images/drop-blue.png'" onmouseout="this.src='images/drop-black.png'"></a></li>
-	</ul>-->
-
 </div>
+
+<script type="text/javascript">
+	$(".about-block.phone").hover(function() {
+		$("#phone-link a").addClass('big');
+	}, function() {
+		$("#phone-link a").removeClass('big');
+	});
+	$(".about-block.keyboard").hover(function() {
+		$("#email-link a").addClass('big');
+	}, function() {
+		$("#email-link a").removeClass('big');
+	});
+</script>
 
 <? require "include/bottom.tpl"; ?>

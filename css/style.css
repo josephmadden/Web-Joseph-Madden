@@ -6,7 +6,7 @@ body {
 }
 
 #page {
-	margin-top: 5px;
+	margin-top: 0px;
 	background: #FFF;
 }
 
@@ -49,8 +49,18 @@ ul {
 }
 
 h2 {
-	font-family: 'Satisfy', cursive;
 	font-size: 36px;
+}
+
+h3 {
+	font-size: 32px;
+	margin: 10px 0px;
+	display: inline-block;*display:inline;zoom:1;
+}
+
+#logo {
+	width: 232px;
+	height: 91px;
 }
 
 .nav-links li {
@@ -61,13 +71,24 @@ h2 {
 	text-align: center;
 }
 
+.nav-links li a {
+	padding: 0px;
+	font-size: 0px;
+}
+
+.nav-links li img {
+	width: 120px;
+	height: 60px;
+	line-height: 0px;
+}
+
 .btn {
 	cursor: pointer;
 	font-size: 36px;
 	font-family: 'Satisfy', cursive;
 	font-weight: normal;
 	text-decoration: none;
-	color: #FFF;
+	color: #FFF !important;
 	padding: 10px 22px;
 	background-color: #000;
 	display: inline-block;*display:inline;zoom:1;
@@ -75,17 +96,13 @@ h2 {
 	text-align: center;
 }
 
-.btn:hover {
+.btn:hover, .btn.active {
 	background-color: #63B9EE;
 }
 
 .btn:active {
 	position: relative;
 	top: 0px;
-}
-
-.btn.about {
-	font-family: 'Bevan';
 }
 
 .flex-direction-nav {
@@ -143,16 +160,201 @@ h2 {
 
 .photo {
 	max-width: 100%;
+	overflow: hidden;
 }
 
-.clear {
-	clear: both;
+.photo img {
+	width: 100%;
+	display: block;
 }
+.photo-set .caption {
+	text-align: left;
+	padding: 20px;
+	margin: 0px;
+}
+.photo .caption {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: left;
+	position: relative;
+	top: 0px;
+	height: 10px;
+	padding: 20px;
+	line-height: 10px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	opacity: 0;
+	transition: opacity 0.25s linear, top 0.25s linear;
+}
+.photo:hover .caption {
+	opacity: 1;
+	top: -50px;
+}
+
+.photo-set {
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+.photo-set .thumbs {
+	padding: 0px 0px;
+	text-align: left;
+	font-size: 0px;
+}
+
+.photo-set .thumbs > img {
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+	margin: 5px 0px 0px 5px;
+}
+
+.photo-set .thumbs.large > img {
+	height: 150px;
+	width: 250px;
+	margin-top: 20px !important;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #CCC;
+	margin: 0px;
+}
+
+.photo-set h3 {
+	background: black;
+	font-family: 'Bevan';
+	padding: 10px 25px;
+	color: white;
+	margin: 0px;
+	display: inline-block;*display:inline;zoom:1;
+}
+
+.fleft { float: left; }
+.fright { float: right; }
+.clear { clear: both; }
 
 .video {
 	width: 100%;
 	height: 500px;
+	background: black;
 }
+
+/* ABOUT PAGE */
+.about-block {
+	float: left;
+	text-align: center;
+}
+
+a.about-block {
+	cursor: pointer;
+}
+
+.about-block.folder {
+	background: url("/images/about-cv.png") center;
+	background-size: 293px 360px;
+	background-repeat: no-repeat;
+	width: 320px;
+	height: 360px;
+}
+
+.about-block.phone {
+	background: url("/images/about-phone.png") center;
+	background-size: 121px 220px;
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 220px;
+}
+
+.about-block.mug {
+	background: url("/images/about-coffee.png") center;
+	background-size: 166px 132px;
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 140px;
+}
+
+.about-block.joe {
+	background: url("/images/about-photo.png") center;
+	background-size: 133px 167px;
+	background-repeat: no-repeat;
+	width: 133px;
+	height: 167px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.about-block.keyboard {
+	background: url("/images/about-email.png") center;
+	background-size: 380px 167px;
+	background-repeat: no-repeat;
+	width: 380px;
+	height: 167px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.about-block.folder span {
+	margin: 150px 0px 0px -25px;
+}
+.about-block.phone span {
+	margin-top: 60px;
+}
+.about-block.keyboard span {
+	margin-top: 60px;
+}
+
+#about-images {
+	max-width: 100%;
+	width: 560px;
+	min-width: 320px;
+}
+
+.about-block .btn {
+	font-size: 36px;
+	background: rgba(0, 0, 0, 0.7);
+	font-family: 'Bevan';
+	padding: 13px 10px 10px;
+}
+
+.about-block:hover .btn {
+	background-color: #63B9EE;
+}
+
+#about-text {
+	float: left;
+	width: 340px;
+	margin-bottom: 10px;
+}
+
+a {
+	color: #63B9EE;
+}
+
+a.big {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #55A8EE;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 920px) {
+	#about-text {
+		width: 100%;
+	}
+
+	#about-images {
+		margin-left: auto;
+		margin-right: auto;
+		float: none !important;
+	}
+}
+
 
 @media screen and (max-width: 700px) {
 	#header h1 {
@@ -173,4 +375,15 @@ h2 {
 	.video {
 		height: 300px;
 	}
+
+	.photo-set .thumbs {
+		text-align: center;
+	}
+
+	.photo-set .thumbs > img {
+		height: 80px;
+		width: 80px;
+		
+	}
+
 }

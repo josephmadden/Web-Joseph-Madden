@@ -18,11 +18,6 @@
 
 		<!-- JAVASCRIPT -->
 		<script type="text/javascript" src="/js/jquery.min.js"></script>
-		<script type="text/javascript" src="/js/bjqs-1.3.min.js"></script>
-
-		<!-- Dlexslider -->
-		<link rel="stylesheet" href="/js/flexslider/flexslider.css" type="text/css" media="screen" />
-		<script type="text/javascript" src="/js/flexslider/jquery.flexslider.js"></script>
 
 	</head>
 
@@ -35,14 +30,21 @@
 				<div class="container">
 
 					<h1 id="title">
-						<a href="/"><img src="images/Joseph-Madden1.png"></a>
+						<a href="/"><img id="logo" alt="Joseph Madden Visuals" src="/images/logo-left-align-large.png"></a>
 					</h1>
 					
 					<ul class="nav-links">
-						<li><a href="/video" class="btn">video</a></li>
-						<li><a href="/photo" class="btn">photo</a></li>
-						<li><a href="/about" class="btn">about</a></li>
+						<li><a href="/video" class="btn <?=$_SERVER['REQUEST_URI'] == '/video' ? 'active' : ''?>">
+							<img alt="Video Page" src="/images/nav_video.png" />
+						</a></li>
+						<li><a href="/photo" class="btn <?=$_SERVER['REQUEST_URI'] == '/photo' ? 'active' : ''?>">
+							<img alt="Photo Page" src="/images/nav_photo.png" />
+						</a></li>	
+						<li><a href="/about" class="btn <?=$_SERVER['REQUEST_URI'] == '/about' ? 'active' : ''?>">
+							<img alt="About Page" src="/images/nav_about.png" />
+						</a></li>
 					</ul>
+
 				</div>
 
 				<div class="clear"></div>
