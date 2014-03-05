@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Joseph Madden Visuals | Home</title>
-		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-		<link rel="stylesheet" type="text/css" href="reset.css" />
-		<link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css' />
-		<link rel="stylesheet" type="text/css" href="global.css" />
+
+		<!-- META INFORMATION -->
+		<title>Joseph Madden Visuals<?=isset($page_title)?" | $page_title":""?></title>
 		<meta name="description" content="Joseph Madden Visuals - Why make a living when you can make a legacy?" />
 		<meta name="author" content="Joseph Madden" />
+
+		<!-- META DATA -->
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
+		<!-- STYLE -->
+		<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+		<link href="//fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+
 	</head>
 
 	<body>
@@ -24,12 +31,14 @@
 					</h1>
 					
 					<ul class="nav-links">
-						<li><a href="/video.php" class="btn">video</a></li>
-						<li><a href="/photo.php" class="btn">photo</a></li>
-						<li><a href="/about.php" class="btn">about</a></li>
+						<li><a href="/video" class="btn">video</a></li>
+						<li><a href="/photo" class="btn">photo</a></li>
+						<li><a href="/about" class="btn">about</a></li>
 					</ul>
 				</div>
 
 				<div class="clear"></div>
 
 			</div>
+
+			<div id="main">

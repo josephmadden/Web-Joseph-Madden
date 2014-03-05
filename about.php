@@ -1,3 +1,4 @@
+<? $page_title = "About"; ?>
 <? require "include/top.tpl"; ?>
 
 <div class="container">
