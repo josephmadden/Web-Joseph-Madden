@@ -17,18 +17,29 @@ function resizePhotoSet() {
 	});
 }
 
+$(document).ready(function() {
+	if (window.location.hash && $("[data-video='"+window.location.hash.substr(1)+"']").length) {
+		$(".photo-set .video").attr('src', "//www.youtube.com/embed/"+window.location.hash.substr(1));
+	}
+});
+
 $(".photo-set .thumbs img").click(function() {
 	var src = $(this).attr('src');
 	var description = $(this).attr('data-description');
 	var video = $(this).attr('data-video');
 
 	if ($(this).is("[data-video]")) {
-		$(this).closest(".photo-set").find(".video").attr('src', "//www.youtube.com/embed/"+video);
+		$(this).closest(".photo-set").find(".video").attr('src', "//www.youtube.com/embed/"+video+"?autoplay=1");
+		window.location.hash = video;
 		$(this).closest(".photo-set").find(".caption").html(description);
 	} else {
 		$(this).closest(".photo-set").find(".photo img").attr('src', src);
 		$(this).closest(".photo-set").find(".caption").html(description);
 	}
+
+
+	$("html, body").animate({scrollTop: $(".photo-set").offset().top}, 'slow');
+
 });
 
 $(".photo-set").each(resizePhotoSet);
