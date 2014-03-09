@@ -4,6 +4,32 @@
 <div class="container">
 
 	<div class="photo-set">
+		<h3>IDA - Posters & Screenshots</h3>
+		<div class="photo">
+			<img src="/thumbs/full-ida-poster-1-1800px.jpg">
+			<div class="caption">Photography and designs from my upcoming feature film, IDA.</div>
+		</div>
+		<div class="thumbs">
+			<img src="/thumbs/thumb-ida-poster-1.jpg" />
+			<img src="/thumbs/thumb-ida-poster-2.jpg" />
+			<img src="/thumbs/thumb-ida-poster-3.jpg" />
+			<img src="/thumbs/thumb-ida-poster-4.jpg" />
+			<img src="/thumbs/thumb-ida-poster-5.jpg" />
+			<img src="/thumbs/thumb-ida-poster-6.jpg" />
+			<img src="/thumbs/thumb-ida-maria.jpg" />
+			<img src="/thumbs/thumb-ida-ida.jpg" />
+			<img src="/thumbs/thumb-ida-george.jpg" />
+			<img src="/thumbs/thumb-ida-ben.jpg" />
+			<img src="/thumbs/thumb-ida-fyans.jpg" />
+			<img src="/thumbs/thumb-ida-doug.jpg" />
+			<img src="/thumbs/thumb-ida-andrea.jpg" />
+			<img src="/thumbs/thumb-ida-alex.jpg" />
+			<img src="/thumbs/thumb-ida-adam.jpg" />
+			<img src="/thumbs/thumb-ida-2guns.jpg" />
+		</div>
+	</div>
+
+	<div class="photo-set">
 		<h3>Lynnwood Book Launch</h3>
 		<div class="photo">
 			<img src="/thumbs/full-tjb-triptych.jpg">
