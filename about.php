@@ -6,8 +6,36 @@
 	<div id="about-text">
 		<p>I'm a creative professional with a focus on visual design and a keen attention to detail.</p>
 		<p>I have a strong background in marketing, communications and multimedia production.</p>
-		<p id="phone-link"><a href="tel:07860882954">07860 882954</b></p>
-		<p id="email-link"><a href="mailto:josephmadden@live.co.uk" target="_blank">josephmadden@live.co.uk</b></p>
+		<p id="phone-link"><a href="tel:07860882954">07860 882954</a></p>
+		<p id="email-link"><a href="mailto:josephmadden@live.co.uk" target="_blank">josephmadden@live.co.uk</a></p>
+
+		<form class="simple">
+			<h3>Contact Me</h3>
+			<label>
+				<span>Name:</span>
+				<input type="text" />
+			</label>
+			<label>
+				<span>Email:</span>
+				<input type="email" />
+			</label>
+			<label>
+				<span>Telephone:</span>
+				<input type="email" />
+			</label>
+			<label>
+				<span>Company:</span>
+				<input type="text" />
+			</label>
+			<label>
+				<span>Message:</span>
+				<textarea></textarea>
+			</label>
+			<label>
+				<span>&nbsp;</span>
+				<input type="submit" value="Send" />
+			</label>
+		</form>
 	</div>
 
 	<div id="about-images" style="float: right;">

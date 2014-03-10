@@ -2,12 +2,8 @@
 <? require "include/top.tpl"; ?>
 
 <div class="container">
-	<div class="flexslider">
-		<ul class="slides">
-			<li><img src="/images/home-ida-1800px.jpg" /></li>
-			<li><img src="/images/home-tom-brown-1800px.jpg" /></li>
-		</ul>
-	</div>
+	<p><img src="/images/home-ida-1800px.jpg" style="width: 900px;" /></p>
+	<p><img src="/images/home-tom-brown-1800px.jpg" style="width: 900px;" /></p>
 </div>
 
 <? require "include/bottom.tpl"; ?>
