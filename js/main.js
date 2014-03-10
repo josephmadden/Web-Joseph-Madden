@@ -6,14 +6,23 @@ function resizePhotoSet() {
 	$(".photo-set").each(function() {
 
 		var full_width = $(this).find(".thumbs").width();
-		var img_width = $(this).find(".thumbs img:first").width();
-		var min_gap = 5;
-		var row_images = Math.floor(full_width / (img_width + min_gap));	
-		var gap = Math.floor((full_width - (row_images * (img_width))) / (row_images - 1));
 
-		$(this).find(".thumbs img").css({marginLeft: gap, marginTop: gap});
+		var stretch_gap = false;
+
+		if (stretch_gap) {
+			var size = $(this).find(".thumbs img:first").width();
+			var min_gap = 5;
+			var row_images = Math.floor(full_width / (size + min_gap));	
+			var gap = Math.floor((full_width - (row_images * (size))) / (row_images - 1));
+		} else {
+			var target_size = 85;
+			var gap = 10;
+			var row_images = Math.floor(full_width / (target_size + gap));
+			var size = Math.floor((full_width - (row_images - 1) * gap) / row_images);
+		}
+
+		$(this).find(".thumbs img").css({marginLeft: gap, marginTop: gap, width: size, height: size});
 		$(".photo-set .thumbs img:nth-child("+(row_images)+"n-"+(row_images-1)+")").css({marginLeft: 0});
-
 	});
 }
 
