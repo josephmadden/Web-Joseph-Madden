@@ -228,6 +228,10 @@ hr {
 	margin: 0px;
 }
 
+hr.big {
+	margin: 40px 0px;
+}
+
 .photo-set h3 {
 	background: black;
 	font-family: 'Bevan';
@@ -235,6 +239,41 @@ hr {
 	color: white;
 	margin: 0px;
 	display: inline-block;*display:inline;zoom:1;
+}
+
+.photo-set .photo {
+	z-index: 1;
+	position: relative;
+}
+
+.photo-set .photo .arrow-left, .photo-set .photo .arrow-right {
+	width: 58px;
+	height: 58px;
+	background-image: url("../images/arrow.png");
+	background-size: 116px 116px;
+	background-position: 0px 0px;
+	cursor: pointer;
+	float: left;
+	margin: 200px 0px -258px 10px;
+	position: relative;
+	z-index: 2;
+	opacity: 0;
+	transition: opacity 0.2s linear;
+}
+
+.photo-set .photo .arrow-right {
+	background-position-x: -58px;
+	float: right;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.photo-set .photo:hover .arrow-left, .photo-set .photo:hover .arrow-right {
+	opacity: 1;
+}
+
+.photo-set .photo .arrow-left:hover, .photo-set .photo .arrow-right:hover {
+	background-position-y: -58px;
 }
 
 .fleft { float: left; }

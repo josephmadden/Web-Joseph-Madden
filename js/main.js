@@ -24,12 +24,14 @@ function resizePhotoSet() {
 		}
 		$(this).find(".thumbs img").css({marginLeft: gap, marginTop: gap, width: width, height: target_height * width / target_width});
 		$(".photo-set .thumbs img:nth-child("+(row_images)+"n-"+(row_images-1)+")").css({marginLeft: 0});
+
 	});
+
 }
 
 $(document).ready(function() {
 	if (window.location.hash && $("[data-video='"+window.location.hash.substr(1)+"']").length) {
-		$(".photo-set .video").attr('src', "//www.youtube.com/embed/"+window.location.hash.substr(1));
+		$(".photo-set .video").attr("src", "//www.youtube.com/embed/" + window.location.hash.substr(1));
 	}
 });
 
@@ -37,6 +39,7 @@ $(".photo-set .thumbs img").click(function() {
 	var image = $(this).is("[data-image]") ? $(this).attr('data-image') : $(this).attr('src');
 	var video = $(this).attr('data-video');
 	var description = $(this).attr('data-description');
+	var title = $(this).attr('data-title');
 
 	if ($(this).is("[data-video]")) {
 		$(this).closest(".photo-set").find(".video").attr('src', "//www.youtube.com/embed/"+video+"?autoplay=1");
@@ -47,9 +50,37 @@ $(".photo-set .thumbs img").click(function() {
 		$(this).closest(".photo-set").find(".caption").html(description);
 	}
 
+	if ($(this).attr('data-title')) {
+		$(this).closest(".photo-set").find("h3").text($(this).attr('data-title'));
+	}
 
 	$("html, body").animate({scrollTop: $(this).closest(".photo-set").offset().top}, 'slow');
 
+});
+
+function positionArrows() {
+	var padding = ($(this).height() - 58) / 2;
+	$(this).closest(".photo").find(".arrow-left, .arrow-right").css({
+		marginTop: padding,
+		marginBottom: -padding - 58
+	});
+}
+
+$(".photo-set").find(".photo img").load(positionArrows);
+$(window).resize(function() {
+	$(".photo-set").find(".photo img").each(positionArrows);
+});
+
+$(".photo-set .photo").prepend("<div class='arrow-left'></div><div class='arrow-right'></div>");
+$(".photo-set .arrow-left, .photo-set .arrow-right").click(function() {
+	var src = $(this).closest(".photo").find("img").attr("src");
+	var thumb = $(this).closest(".photo-set").find(".thumbs").find("[data-image='"+src+"'], [src='"+src+"']");
+	var thumbs = $(this).closest(".photo-set").find(".thumbs").children().length;
+	var d = $(this).is(".arrow-left") ? -1 : 1;
+	var index = thumb ? (thumb.index() + d) % thumbs : 0;
+	index = index == -1 ? thumbs -1 : index;
+	$($(this).closest(".photo-set").find(".thumbs").children()[index]).click();
+	console.log(index);
 });
 
 $(".photo-set .thumbs").children().each(function() {
