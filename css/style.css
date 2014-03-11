@@ -426,6 +426,11 @@ form.simple input:focus, form.simple textarea:focus {
 	box-shadow: 0px 0px 2px #55A8EE;
 }
 
+.social-links {
+	float: right;
+	margin: -5px 0px 5px;
+}
+
 @media screen and (max-width: 920px) {
 	#about-text {
 		width: 100%;

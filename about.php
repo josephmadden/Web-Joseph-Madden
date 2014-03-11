@@ -9,7 +9,7 @@
 		<p id="phone-link"><a href="tel:07860882954">07860 882954</a></p>
 		<p id="email-link"><a href="mailto:josephmadden@live.co.uk" target="_blank">josephmadden@live.co.uk</a></p>
 
-		<form class="simple">
+		<!--<form class="simple">
 			<h3>Contact Me</h3>
 			<label>
 				<span>Name:</span>
@@ -35,7 +35,8 @@
 				<span>&nbsp;</span>
 				<input type="submit" value="Send" />
 			</label>
-		</form>
+		</form>-->
+
 	</div>
 
 	<div id="about-images" style="float: right;">
