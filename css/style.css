@@ -209,9 +209,17 @@ h3 {
 }
 
 .photo-set .thumbs.large > img {
-	height: 150px;
-	width: 250px;
-	margin-top: 20px !important;
+	height: 90px;
+	width: 150px;
+}
+
+.photo-fader {
+	font-size: 0px;
+}
+
+.photo-fader > * {
+	position: relative;
+	display: inline-block;*display:inline;zoom:1;
 }
 
 hr {

@@ -9,19 +9,20 @@ function resizePhotoSet() {
 
 		var stretch_gap = false;
 
+		var target_width = parseInt($(this).find(".thumbs > :first").attr("data-width"));
+		var target_height = parseInt($(this).find(".thumbs > :first").attr("data-height"));
+
 		if (stretch_gap) {
-			var size = $(this).find(".thumbs img:first").width();
+			var width = $(this).find(".thumbs img:first").width();
 			var min_gap = 5;
 			var row_images = Math.floor(full_width / (size + min_gap));	
 			var gap = Math.floor((full_width - (row_images * (size))) / (row_images - 1));
 		} else {
-			var target_size = 85;
 			var gap = 10;
-			var row_images = Math.floor(full_width / (target_size + gap));
-			var size = Math.floor((full_width - (row_images - 1) * gap) / row_images);
+			var row_images = Math.floor(full_width / (target_width + gap));
+			var width = Math.floor((full_width - (row_images - 1) * gap) / row_images);
 		}
-
-		$(this).find(".thumbs img").css({marginLeft: gap, marginTop: gap, width: size, height: size});
+		$(this).find(".thumbs img").css({marginLeft: gap, marginTop: gap, width: width, height: target_height * width / target_width});
 		$(".photo-set .thumbs img:nth-child("+(row_images)+"n-"+(row_images-1)+")").css({marginLeft: 0});
 	});
 }
@@ -51,6 +52,37 @@ $(".photo-set .thumbs img").click(function() {
 
 });
 
+$(".photo-set .thumbs").children().each(function() {
+	$(this).attr({
+		"data-width": $(this).width(),
+		"data-height": $(this).height()
+	});
+});
+
 $(".photo-set").each(resizePhotoSet);
 $(".photo-set .photo img").load(resizePhotoSet);
 $(window).resize(resizePhotoSet);
+
+$(document).ready(function() {
+	$(".photo-fader").each(function() {
+		$(this).children().css({opacity: 1});
+		$(this).children().filter(":gt(0)").css({
+			marginTop: -$(this).height(),
+			opacity: 0
+		});
+	});
+	var pause = 5000;
+	function photoFader() {
+		var duration = 2000;
+		$(".photo-fader").each(function() {
+			var fader = $(this);
+			$(fader.children()[1]).animate({opacity: 1}, {duration: duration, queue: false, complete: function() {
+				$(this).css({marginTop: 0});
+				fader.append($(fader.children()[0]).css({opacity: 0, marginTop: -fader.height()}));
+			}});
+		});
+		setTimeout(photoFader, pause);
+	}
+	setTimeout(photoFader, pause);
+});
+
