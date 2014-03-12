@@ -13,7 +13,7 @@ function resizePhotoSet() {
 		var target_height = parseInt($(this).find(".thumbs > :first").attr("data-height"));
 
 		if (stretch_gap) {
-			var width = $(this).find(".thumbs img:first").width();
+			var width = $(this).find(".thumbs > :first").width();
 			var min_gap = 5;
 			var row_images = Math.floor(full_width / (size + min_gap));	
 			var gap = Math.floor((full_width - (row_images * (size))) / (row_images - 1));
@@ -22,8 +22,8 @@ function resizePhotoSet() {
 			var row_images = Math.floor(full_width / (target_width + gap));
 			var width = Math.floor((full_width - (row_images - 1) * gap) / row_images);
 		}
-		$(this).find(".thumbs img").css({marginLeft: gap, marginTop: gap, width: width, height: target_height * width / target_width});
-		$(".photo-set .thumbs img:nth-child("+(row_images)+"n-"+(row_images-1)+")").css({marginLeft: 0});
+		$(this).find(".thumbs > *").css({marginLeft: gap, marginTop: gap, width: width, height: target_height * width / target_width});
+		$(".photo-set .thumbs > :nth-child("+(row_images)+"n-"+(row_images-1)+")").css({marginLeft: 0});
 
 	});
 
@@ -35,7 +35,8 @@ $(document).ready(function() {
 	}
 });
 
-$(".photo-set .thumbs img").click(function() {
+// Thumbnails clicked
+$(".photo-set .thumbs > *").click(function() {
 	var image = $(this).is("[data-image]") ? $(this).attr('data-image') : $(this).attr('src');
 	var video = $(this).attr('data-video');
 	var description = $(this).attr('data-description');
@@ -58,6 +59,8 @@ $(".photo-set .thumbs img").click(function() {
 
 });
 
+
+// Add arrows to photo sets and add functionality to them
 function positionArrows() {
 	var padding = ($(this).height() - 58) / 2;
 	$(this).closest(".photo").find(".arrow-left, .arrow-right").css({
@@ -83,6 +86,7 @@ $(".photo-set .arrow-left, .photo-set .arrow-right").click(function() {
 	console.log(index);
 });
 
+// Set size of thumbnails
 $(".photo-set .thumbs").children().each(function() {
 	$(this).attr({
 		"data-width": $(this).width(),
@@ -90,16 +94,20 @@ $(".photo-set .thumbs").children().each(function() {
 	});
 });
 
+// Resize photos when needed
 $(".photo-set").each(resizePhotoSet);
 $(".photo-set .photo img").load(resizePhotoSet);
 $(window).resize(resizePhotoSet);
+
+// Homepage Fader
 
 $(document).ready(function() {
 	$(".photo-fader").each(function() {
 		$(this).children().css({opacity: 1});
 		$(this).children().filter(":gt(0)").css({
 			marginTop: -$(this).height(),
-			opacity: 0
+			opacity: 0,
+			display: 'none'
 		});
 	});
 	var pause = 5000;
@@ -107,7 +115,7 @@ $(document).ready(function() {
 		var duration = 2000;
 		$(".photo-fader").each(function() {
 			var fader = $(this);
-			$(fader.children()[1]).animate({opacity: 1}, {duration: duration, queue: false, complete: function() {
+			$(fader.children()[1]).show().animate({opacity: 1}, {duration: duration, queue: false, complete: function() {
 				$(this).css({marginTop: 0});
 				fader.append($(fader.children()[0]).css({opacity: 0, marginTop: -fader.height()}));
 			}});
