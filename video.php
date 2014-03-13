@@ -39,11 +39,13 @@
 		"V0e6BUFiec8" => array(
 			"data-title" => "Really Long Title... Testing what happens when there is bare long titles",
 			"thumbnail" => "http://www.chicagonow.com/mars-venus-game/files/2013/11/rotary-phone.jpg",
+			"text-image" => "http://www-tc.pbs.org/food/wp-content/blogs.dir/2/files/2012/07/COOKFORJULIA-WHITE-LOGO-500px.png",
 			"data-description" => "Description..."
 		),
 		"yd8DSlnmmjs" => array(
 			"data-title" => "<img src='http://www.iconsdb.com/icons/preview/white/idea-xxl.png' height='30' /> ☜ ☹",
 			"thumbnail" => "http://content7.flixster.com/rtactor/40/46/40469_pro.jpg",
+			"text-image" => "http://24.media.tumblr.com/c8196970d64252cfdc0d397b83326783/tumblr_mrw8nh7iYK1riiww1o1_500.gif",
 			"data-description" => "Description..."
 		)
 	);
