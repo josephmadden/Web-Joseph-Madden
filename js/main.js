@@ -30,8 +30,8 @@ function resizePhotoSet() {
 }
 
 $(document).ready(function() {
-	if (window.location.hash && $("[data-video='"+window.location.hash.substr(1)+"']").length) {
-		$(".photo-set .video").attr("src", "//www.youtube.com/embed/" + window.location.hash.substr(1));
+	if (window.location.hash) {
+		$("[data-video='"+window.location.hash.substr(1)+"']").click();
 	}
 });
 

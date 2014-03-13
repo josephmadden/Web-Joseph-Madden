@@ -201,16 +201,35 @@ h3 {
 	font-size: 0px;
 }
 
-.photo-set .thumbs > img {
+.photo-set .thumbs > * {
 	height: 100px;
 	width: 100px;
 	cursor: pointer;
 	margin: 5px 0px 0px 5px;
 }
 
-.photo-set .thumbs.large > img {
+.photo-set .thumbs.large > * {
 	height: 90px;
 	width: 150px;
+	display: inline-block;*display:inline;zoom:1;
+}
+
+.photo-set .thumbs .video-thumb {
+	background-size: 100%;
+}
+
+.video-thumb-inner {
+	opacity: 0;
+	background: rgba(0, 0, 0, 0.65);
+	transition: opacity 0.2s linear;
+}
+
+.video-thumb-inner:hover {
+	opacity: 1;
+}
+
+.video-thumb-inner img {
+	width: 100%;
 }
 
 .photo-fader {
