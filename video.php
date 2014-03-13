@@ -37,24 +37,14 @@
 			"data-description" => "(NSFW: I get full frontal in this and Pete gets his bum out). The third sketch in Pat Larder's web series Monkey Burgers, a surreal comedy revolving around myself and Pete Williams as lazy, inept students. Having the most VFX experience, I edited this as well as acted in it. If you enjoy this kind of humour, check out the full pilot episode we made."
 		),
 		"V0e6BUFiec8" => array(
-			"data-title" => "IDA Again?",
-			"thumbnail" => "/images/home-ida-1800px.jpg",
-			"data-description" => ""
-		),
-		"yd8DSlnmmjs" => array(
-			"data-title" => "",
-			"thumbnail" => "/images/home-david-cameron-1800px.jpg",
-			"data-description" => ""
-		),
-		"V0e6BUFiec8" => array(
-			"data-title" => "",
+			"data-title" => "Really Long Title... Testing what happens when there is bare long titles",
 			"thumbnail" => "http://www.chicagonow.com/mars-venus-game/files/2013/11/rotary-phone.jpg",
-			"data-description" => ""
+			"data-description" => "Description..."
 		),
 		"yd8DSlnmmjs" => array(
-			"data-title" => "",
+			"data-title" => "<img src='http://www.iconsdb.com/icons/preview/white/idea-xxl.png' height='30' /> ☜ ☹",
 			"thumbnail" => "http://content7.flixster.com/rtactor/40/46/40469_pro.jpg",
-			"data-description" => ""
+			"data-description" => "Description..."
 		)
 	);
 ?>

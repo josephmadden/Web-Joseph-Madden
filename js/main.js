@@ -49,21 +49,34 @@ $(".photo-set .thumbs > *").click(function() {
 	} else {
 		$(this).closest(".photo-set").find(".photo img").attr('src', image);
 		$(this).closest(".photo-set").find(".caption").html(description);
+		$(this).closest(".photo-set").find(".photo .loader").show();
 	}
 
 	if ($(this).attr('data-title')) {
-		$(this).closest(".photo-set").find("h3").text($(this).attr('data-title'));
+		$(this).closest(".photo-set").find("h3").html($(this).attr('data-title'));
 	}
 
 	$("html, body").animate({scrollTop: $(this).closest(".photo-set").offset().top}, 'slow');
 
 });
 
+$(".photo-set .photo img").load(function() {
+	$(this).closest(".photo").find(".loader").hide();
+});
+
+// Animates the loaders
+$(".photo-set .photo").prepend("<div class='loader'></div>");
+(function animateLoader() {
+	$(".photo-set .photo .loader").each(function() {
+		$(this).css("background-position-x", parseInt($(this).css("background-position-x")) - 58);
+	});
+	setTimeout(animateLoader, 100);
+})();
 
 // Add arrows to photo sets and add functionality to them
 function positionArrows() {
 	var padding = ($(this).height() - 58) / 2;
-	$(this).closest(".photo").find(".arrow-left, .arrow-right").css({
+	$(this).closest(".photo").find(".arrow-left, .arrow-right, .loader").css({
 		marginTop: padding,
 		marginBottom: -padding - 58
 	});

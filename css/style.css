@@ -295,6 +295,17 @@ hr.big {
 	background-position-y: -58px;
 }
 
+.photo-set .loader {
+	width: 58px;
+	height: 58px;
+	margin: 0px auto -58px;
+	background-image: url("../images/loading.png");
+	background-size: 174px 58px;
+	background-position: 0px 0px;
+	position: relative;
+	z-index: 2;
+}
+
 .fleft { float: left; }
 .fright { float: right; }
 .clear { clear: both; }
