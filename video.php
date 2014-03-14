@@ -34,7 +34,7 @@
 			"data-title" => "Monkey Burgers",
 			"thumbnail" => "/thumbs/vid-thumb-monkey-burgers-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-monkey-burgers-2.png",
-			"data-description" => "(NSFW: I get full frontal in this and Pete gets his bum out). The third sketch in Pat Larder's web series Monkey Burgers, a surreal comedy revolving around myself and Pete Williams as lazy, inept students. Having the most VFX experience, I edited this as well as acted in it. If you enjoy this kind of humour, check out the full pilot episode we made."
+			"data-description" => "(<span class='label red'>NSFW</span>: I get full frontal in this and Pete gets his bum out). The third sketch in Pat Larder's web series Monkey Burgers, a surreal comedy revolving around myself and Pete Williams as lazy, inept students. Having the most VFX experience, I edited this as well as acted in it. If you enjoy this kind of humour, check out the full pilot episode we made."
 		),
 		"V0e6BUFiec8" => array(
 			"data-title" => "Really Long Title... Testing what happens when there is bare long titles",
