@@ -77,6 +77,34 @@
 		</div>
 	</div>
 
+	<hr class="big" />
+
+	<div class="photo-set">
+		<h3>MAN DAY 2012</h3>
+		<div class="photo">
+			<img src="/thumbs/full-rdf-triptych.jpg">
+			<div class="caption">Behind the scenes with Red Deer Films on their music video for S.O. Simple's 'On My Way'</div>
+		</div>
+		<div class="thumbs">
+			<img src="/thumbs/thumb-man-1.jpg" data-image="/thumbs/full-man-1.jpg" />
+			<img src="/thumbs/thumb-man-2.jpg" data-image="/thumbs/full-man-2.jpg" />
+			<img src="/thumbs/thumb-man-3.jpg" data-image="/thumbs/full-man-3.jpg" />
+			<img src="/thumbs/thumb-man-4.jpg" data-image="/thumbs/full-man-4.jpg" />
+			<img src="/thumbs/thumb-man-5.jpg" data-image="/thumbs/full-man-5.jpg" />
+			<img src="/thumbs/thumb-man-6.jpg" data-image="/thumbs/full-man-6.jpg" />
+			<img src="/thumbs/thumb-man-7.jpg" data-image="/thumbs/full-man-7.jpg" />
+			<img src="/thumbs/thumb-man-8.jpg" data-image="/thumbs/full-man-8.jpg" />
+			<img src="/thumbs/thumb-man-9.jpg" data-image="/thumbs/full-man-9.jpg" />
+			<img src="/thumbs/thumb-man-10.jpg" data-image="/thumbs/full-man-10.jpg" />
+			<img src="/thumbs/thumb-man-11.jpg" data-image="/thumbs/full-man-11.jpg" />
+			<img src="/thumbs/thumb-man-12.jpg" data-image="/thumbs/full-man-12.jpg" />
+			<img src="/thumbs/thumb-man-13.jpg" data-image="/thumbs/full-man-13.jpg" />
+			<img src="/thumbs/thumb-man-14.jpg" data-image="/thumbs/full-man-14.jpg" />
+			<img src="/thumbs/thumb-man-15.jpg" data-image="/thumbs/full-man-15.jpg" />
+			<img src="/thumbs/thumb-man-16.jpg" data-image="/thumbs/full-man-16.jpg" />
+		</div>
+	</div>
+
 </div>
 
 <? require "include/bottom.tpl"; ?>
