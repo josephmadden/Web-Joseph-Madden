@@ -4,7 +4,7 @@
 <div class="container">
 
 	<div id="about-text">
-		<p>I'm a creative professional with a focus on visual design and a keen attention to detail.</p>
+		<p><p>I'm a creative professional with a focus on visual design and a keen attention to detail.</p></p>
 		<p>I have a strong background in marketing, communications and multimedia production.</p>
 		<p id="phone-link"><a href="tel:07860882954">07860 882954</a></p>
 		<p id="email-link"><a href="mailto:josephmadden@live.co.uk" target="_blank">josephmadden@live.co.uk</a></p>

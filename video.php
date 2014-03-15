@@ -1,22 +1,7 @@
 <? $page_title = "Videos"; ?>
 <? require "include/top.tpl"; ?>
 
-<?
-	
-	/**
-	 * Dear Joseph,
-	 * 
-	 * To make life slightly simpler I have turned the
-	 * HTML on this page into an array (list).
-	 * 
-	 * This is PHP that then generates the HTML on the video page.
-	 * 
-	 * Hopefully based off what is already there you should be able
-	 * to edit/fill out the rest. If it doesn't work - shout at me.
-	 * 
-	 * Kind Regards,
-	 * Josh
-	 */
+<?	
 	$videos = array(
 		"9sRVFO_w1Zc" => array(
 			"data-title" => "IDA Teaser Trailer",
@@ -24,27 +9,29 @@
 			"text-image" => "/thumbs/vid-thumb-ida-teaser-2.png",
 			"data-description" => "A pet project to teach myself basic VFX that has since spiralled out of control and mutated into a feature film. <p> Directed, shot and edited by myself, and starring Ida Wibe Hagen as a genetically enhanced psychic being hunted down by a shady government agency - think 'Bourne Identity' with superpowers."
 		),
-		"rLwrOg513jk" => array(
+		"cFfi1icNR6A" => array(
 			"data-title" => "Short Fuse",
 			"thumbnail" => "/thumbs/vid-thumb-short-fuse-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-short-fuse-2.png",
-			"data-description" => "A short film I worked on with Smart Casual Pictures for the London 48 Hour Project 2013 (http://www.48hourfilm.com/en/london/). The theme we were given was superheroes. I was co-cinematographer and editor, which explains why we ended up with a girl who could shoot lightning. An exhausting but inspiring weekend with a great bunch of old and new friends."
+			"data-description" => "A short film I worked on with Smart Casual Pictures for the London 48 Hour Project 2013. The theme we were given was superheroes. I was co-cinematographer and editor, which explains why we ended up with a girl who could shoot lightning. An exhausting but inspiring weekend with a great bunch of old and new friends."
 		),
 		"pz4PiR03uHY" => array(
 			"data-title" => "Monkey Burgers",
 			"thumbnail" => "/thumbs/vid-thumb-monkey-burgers-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-monkey-burgers-2.png",
-			"data-description" => "(NSFW: I get full frontal in this and Pete gets his bum out). The third sketch in Pat Larder's web series Monkey Burgers, a surreal comedy revolving around myself and Pete Williams as lazy, inept students. Having the most VFX experience, I edited this as well as acted in it. If you enjoy this kind of humour, check out the full pilot episode we made."
+			"data-description" => "(NSFW: I get full frontal in this and Pete gets his bum out). <p>The third sketch in Pat Larder's web series Monkey Burgers, a surreal comedy revolving around myself and Pete Williams as lazy, inept students. Having the most VFX experience, I edited this as well as acted in it. </p>"
 		),
-		"V0e6BUFiec8" => array(
-			"data-title" => "Really Long Title... Testing what happens when there is bare long titles",
-			"thumbnail" => "http://www.chicagonow.com/mars-venus-game/files/2013/11/rotary-phone.jpg",
-			"data-description" => "Description..."
+		"3r2VNCzv_xU" => array(
+			"data-title" => "B&Q Spring Summer Press Show 2014",
+			"thumbnail" => "/thumbs/vid-thumb-bqpress-1.jpg",
+			"text-image" => "/thumbs/vid-thumb-bqpress-2.png",
+			"data-description" => "Over the past two years I've produced hundreds of videos for B&Q, mainly for internal communications purposes. This is one of the more recent public facing videos I've produced.</p>"
 		),
-		"yd8DSlnmmjs" => array(
-			"data-title" => "<img src='http://www.iconsdb.com/icons/preview/white/idea-xxl.png' height='30' /> ☜ ☹",
-			"thumbnail" => "http://content7.flixster.com/rtactor/40/46/40469_pro.jpg",
-			"data-description" => "Description..."
+		"-H96m0ZKnNM" => array(
+			"data-title" => "Lynnwood - Thomas Brown book launch",
+			"thumbnail" => "/thumbs/vid-thumb-tjb-1.jpg",
+			"text-image" => "/thumbs/vid-thumb-tjb-2.png",
+			"data-description" => "I photographed Tom in late 2012 for the inside cover photo of his debut novel, Lynnwood. So when he invited me to photograph its launch at his local Waterstone's the following June I was pretty excited, but definitely wasn’t expecting the kind of fanfare it received. The book sold out within the hour and I’ve never seen so many people in a bookshop at one time. An all round great day out in a beautiful little town in Oxfordshire.<p>I wasn't going to turn up and take photos without filming it as well, so made this little video of the event. Luckily the staff in Waterstone's were very friendly and let me set up camp behind the till with all my gear.</p>"
 		)
 	);
 ?>
@@ -55,7 +42,7 @@
 	<div class="photo-set">
 		<h3>Videos</h3>
 		<iframe class="video" src="//www.youtube.com/embed/9sRVFO_w1Zc" frameborder="0" allowfullscreen></iframe>
-		<p class="caption">Description</p>
+		<p class="caption"></p>
 		<hr/>
 		<div class="thumbs large">
 			<!-- This is a loop that generates all the video thumbs in the correct format -->
