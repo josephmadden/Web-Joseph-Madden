@@ -42,7 +42,7 @@
 	<div id="about-images" style="float: right;">
 
 		<a class="about-block folder">
-			<span class="btn about">CLICK FOR CV</span>
+			<span class="btn about">READ MY CV</span>
 		</a>
 
 		<a class="about-block phone" href="tel:07860882954">

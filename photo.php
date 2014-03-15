@@ -7,7 +7,7 @@
 		<h3>IDA - Posters &amp; Screenshots</h3>
 		<div class="photo">
 			<img src="/thumbs/full-ida-poster-1-1800px.jpg">
-			<div class="caption">Photography and designs from my upcoming feature film, IDA.</div>
+			<div class="caption">Photography and designs from my upcoming feature film, IDA</div>
 		</div>
 		<div class="thumbs">
 			<img src="/thumbs/thumb-ida-poster-1.jpg" data-image="/thumbs/full-ida-poster-1-1800px.jpg" />
@@ -82,10 +82,11 @@
 	<div class="photo-set">
 		<h3>MAN DAY 2012</h3>
 		<div class="photo">
-			<img src="/thumbs/full-rdf-triptych.jpg">
-			<div class="caption">Behind the scenes with Red Deer Films on their music video for S.O. Simple's 'On My Way'</div>
+			<img src="/images/home-man-day-1800px.jpg">
+			<div class="caption">We built cardboard armour and spent the day fighting each other, Game of Thrones style. I'm still not sure why...</div>
 		</div>
 		<div class="thumbs">
+			<img src="/thumbs/thumb-man-poster.jpg" data-image="/images/home-man-day-1800px.jpg" />
 			<img src="/thumbs/thumb-man-1.jpg" data-image="/thumbs/full-man-1.jpg" />
 			<img src="/thumbs/thumb-man-2.jpg" data-image="/thumbs/full-man-2.jpg" />
 			<img src="/thumbs/thumb-man-3.jpg" data-image="/thumbs/full-man-3.jpg" />
@@ -98,7 +99,6 @@
 			<img src="/thumbs/thumb-man-10.jpg" data-image="/thumbs/full-man-10.jpg" />
 			<img src="/thumbs/thumb-man-11.jpg" data-image="/thumbs/full-man-11.jpg" />
 			<img src="/thumbs/thumb-man-12.jpg" data-image="/thumbs/full-man-12.jpg" />
-			<img src="/thumbs/thumb-man-13.jpg" data-image="/thumbs/full-man-13.jpg" />
 			<img src="/thumbs/thumb-man-14.jpg" data-image="/thumbs/full-man-14.jpg" />
 			<img src="/thumbs/thumb-man-15.jpg" data-image="/thumbs/full-man-15.jpg" />
 			<img src="/thumbs/thumb-man-16.jpg" data-image="/thumbs/full-man-16.jpg" />
