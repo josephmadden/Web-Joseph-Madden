@@ -41,7 +41,7 @@
 
 	<div id="about-images" style="float: right;">
 
-		<a class="about-block folder">
+		<a class="about-block folder" href="/curriculum-vitae-joseph-madden.pdf">
 			<span class="btn about">READ MY CV</span>
 		</a>
 
@@ -51,7 +51,7 @@
 
 		<div class="about-block mug"></div>
 
-		<div class="about-block joe"></div>
+		<a class="about-block joe" href="/me"></a>
 
 		<a class="about-block keyboard">
 			<span class="btn about">DROP ME A LINE</span>
