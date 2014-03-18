@@ -114,13 +114,12 @@ $(window).resize(resizePhotoSet);
 
 // Homepage Fader
 
-$(document).ready(function() {
+$(window).load(function() {
 	$(".photo-fader").each(function() {
 		$(this).children().css({opacity: 1});
-		$(this).children().filter(":gt(0)").css({
+		$(this).children().filter(":gt(0)").hide().css({
 			marginTop: -$(this).height(),
-			opacity: 0,
-			display: 'none'
+			opacity: 0
 		});
 	});
 	var pause = 5000;
@@ -130,7 +129,7 @@ $(document).ready(function() {
 			var fader = $(this);
 			$(fader.children()[1]).show().animate({opacity: 1}, {duration: duration, queue: false, complete: function() {
 				$(this).css({marginTop: 0});
-				fader.append($(fader.children()[0]).css({opacity: 0, marginTop: -fader.height()}));
+				fader.append($(fader.children()[0]).hide().css({opacity: 0, marginTop: -fader.height()}));
 			}});
 		});
 		setTimeout(photoFader, pause);

@@ -3,13 +3,19 @@
 	<head>
 
 		<!-- META INFORMATION -->
-		<title>Joseph Madden <?=isset($page_title)?" | $page_title":""?></title>
+		<title>Joseph Madden<?=isset($page_title)?" | $page_title":""?></title>
 		<meta name="description" content="Joseph Madden Visuals - Why make a living when you can make a legacy?" />
 		<meta name="author" content="Joseph Madden" />
 
 		<!-- META DATA -->
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
+		<!-- OPEN GRAPH TAGS -->
+		<meta property="og:title" content="Joseph Madden<?=isset($page_title)?" | $page_title":""?>" />
+		<meta property="og:type" content="website" />       
+		<meta property="og:image" content="http://www.josephmadden.co.uk/images/home-ida-1800px.jpg" />      
+		<meta property="og:url" content="http://<www.josephmadden.co.uk<?=$_SERVER['REQUEST_URI']?>" />
 
 		<!-- STYLE -->
 		<link rel="stylesheet" type="text/css" href="/css/reset.css" />
@@ -22,7 +28,7 @@
 	</head>
 
 	<body>
-
+		
 		<div id="page">
 
 			<div id="header">

@@ -234,11 +234,18 @@ h3 {
 
 .photo-fader {
 	font-size: 0px;
+	width: 900px;
+	max-width: 100%;
 }
 
 .photo-fader > * {
 	position: relative;
 	display: inline-block;*display:inline;zoom:1;
+	max-width: 100%;
+}
+
+.photo-fader img {
+	max-width: 100%;
 }
 
 hr {
@@ -523,9 +530,18 @@ form.simple input:focus, form.simple textarea:focus {
 		
 	}
 
+	.nav-links li img {
+		width: 80px;
+		height: 40px;
+	}
+
 	.photo {
 		max-height: none;
 		height: auto !important;
+	}
+
+	.photo-set h3 {
+		font-size: 18px;
 	}
 
 	.photo .caption, .photo:hover .caption {
