@@ -1,5 +1,5 @@
 body {
-	background: #000;
+	background: #FFF;
 	font-family: arial;
 	width: 100%;
 	margin: 0px 0px;
@@ -8,6 +8,7 @@ body {
 #page {
 	margin-top: 0px;
 	background: #FFF;
+	margin-bottom: 25px;
 }
 
 #header h1 {
@@ -33,6 +34,11 @@ body {
 	color: white;
 	font-size: small;
 	clear: both;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 2000;
 }
 
 #footer .container {
