@@ -4,8 +4,10 @@
 <div class="container">
 
 	<div id="about-text">
-		<p><p>I'm a creative professional with a focus on visual design and a keen attention to detail.</p></p>
-		<p>I have a strong background in marketing, communications and multimedia production.</p>
+		<p><p>I'm a creative professional with a strong background in multimedia production, digital marketing and internal communications.</p></p>
+		<p>I’ve spent the past two years producing corporate videos and developing the media communications strategy for a major retail business. In my spare time I freelance as a videographer and designer on any projects that sound like I’ll have fun doing them.</p>
+		<p>I also make sketches and short films with my friends, regularly acting, directing and shooting whatever half-baked idea we’ve happened upon.</p>
+		<p>I’m always looking to get involved with exciting projects and meet new friends in the creative industries, so let’s have a chat.</p>
 		<p id="phone-link"><a href="tel:07860882954">07860 882954</a></p>
 		<p id="email-link"><a href="mailto:josephmadden@live.co.uk" target="_blank">josephmadden@live.co.uk</a></p>
 
