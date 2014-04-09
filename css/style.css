@@ -61,6 +61,8 @@ h3 {
 #logo {
 	width: 232px;
 	height: 91px;
+	background-image: url("/images/logo-left-align-large.png");
+	background-size: 232px 91px;
 }
 
 .nav-links li {
@@ -506,12 +508,21 @@ form.simple input:focus, form.simple textarea:focus {
 		float: none;
 		margin: 0px;
 		padding-top: 5px;
+		text-align: center;
 	}
+
+	#logo {
+		background-image: url("/images/logo-centre-align-large.png");
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.nav-links {
 		display: block;
 		float: none;
-		text-align: left;
+		text-align: center;
 	}
+
 	.nav-links li {
 		margin-left: 0px;
 	}

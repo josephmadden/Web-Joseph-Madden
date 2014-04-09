@@ -36,7 +36,7 @@
 				<div class="container">
 
 					<h1 id="title">
-						<a href="/"><img id="logo" alt="Joseph Madden Visuals" src="/images/logo-left-align-large.png"></a>
+						<a href="/"><div id="logo"></div></a>
 					</h1>
 					
 					<ul class="nav-links">
