@@ -244,6 +244,7 @@ h3 {
 	position: relative;
 	display: inline-block;*display:inline;zoom:1;
 	max-width: 100%;
+	display: none;
 }
 
 .photo-fader img {
@@ -515,6 +516,20 @@ form.simple input:focus, form.simple textarea:focus {
 		background-image: url("/images/logo-centre-align-large.png");
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	#about-images {
+		zoom: 0.7;
+		text-align: center;
+	}
+
+	#about-images .about-block {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		display: block;
+		float: none;
+		clear: both;
 	}
 
 	.nav-links {

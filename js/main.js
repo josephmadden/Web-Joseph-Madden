@@ -116,7 +116,7 @@ $(window).resize(resizePhotoSet);
 
 $(window).load(function() {
 	$(".photo-fader").each(function() {
-		$(this).children().css({opacity: 1});
+		$(this).children().css({display: 'block', opacity: 1});
 		$(this).children().filter(":gt(0)").hide().css({
 			marginTop: -$(this).height(),
 			opacity: 0
