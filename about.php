@@ -53,7 +53,9 @@
 
 		<div class="about-block mug"></div>
 
-		<a class="about-block joe" href="/me"></a>
+		<a class="about-block joe" href="/me">
+			<span class="btn about">ME</span>
+		</a>
 
 		<a class="about-block keyboard">
 			<span class="btn about">DROP ME A LINE</span>

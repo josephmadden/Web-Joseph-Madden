@@ -31,7 +31,7 @@
 			"data-title" => "Lynnwood - Thomas Brown book launch",
 			"thumbnail" => "/thumbs/vid-thumb-tjb-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-tjb-2.png",
-			"data-description" => "I photographed Tom in late 2012 for the inside cover photo of his debut novel, Lynnwood. So when he invited me to photograph its launch at his local Waterstone's the following June I was pretty excited, but definitely wasn’t expecting the kind of fanfare it received. The book sold out within the hour and I’ve never seen so many people in a bookshop at one time. An all round great day out in a beautiful little town in Oxfordshire.<p>I wasn't going to turn up and take photos without filming it as well, so made this little video of the event. Luckily the staff in Waterstone's were very friendly and let me set up camp behind the till with all my gear.</p>"
+			"data-description" => "I photographed Tom in late 2012 for the inside cover photo of his debut novel, Lynnwood. So when he invited me to photograph its launch at his local Waterstone's the following June I was pretty excited, but definitely wasn’t expecting the kind of fanfare it received. The book sold out within the hour and I’ve never seen so many people in a bookshop at one time. An all round great day out in a beautiful little town in Oxfordshire.<p>I wasn't going to turn up and take photos without filming it as well, so made this little video of the event. Luckily the staff in Waterstone's were very friendly and let me set up camp behind the till with all my gear.</p><p><a href='http://www.google.com' target='_blank'>Tom's Website</a>"
 		),
 		"9sRVFO_w1Zc" => array(
 			"data-title" => "IDA - Teaser Trailer (2013)",
@@ -45,6 +45,12 @@
 			"text-image" => "/thumbs/vid-thumb-short-fuse-2.png",
 			"data-description" => "A short film I worked on with Smart Casual Pictures for the London 48 Hour Project 2013. The theme we were given was superheroes. I was co-cinematographer and editor, which explains why we ended up with a girl who could shoot lightning. An exhausting but inspiring weekend with a great bunch of old and new friends."
 		),
+		"RFYOg56RuKk" => array(
+			"data-title" => "MC Threat - Mars",
+			"thumbnail" => "/thumbs/vid-thumb-mc-threat-mars-1.jpg",
+			"text-image" => "/thumbs/vid-thumb-mc-threat-mars-2.png",
+			"data-description" => "The new single from the critically acclaimed MC Threat's Time Travelling Rap Album. <a href='http://www.mcthreat.com/' target='_blank'>MC Threat's Website</a> and <a href='https://www.facebook.com/mcthreat' target='_blank'>MC Threat's Facebook</a>"
+		)
 	);
 ?>
 <script type="text/javascript">var videos = <?=json_encode($videos);?>;</script>

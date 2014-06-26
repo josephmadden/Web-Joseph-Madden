@@ -371,9 +371,16 @@ a.about-block {
 	background-size: 133px 167px;
 	background-repeat: no-repeat;
 	width: 133px;
-	height: 167px;
+	height: 105px;
 	margin-top: 10px;
 	margin-left: 15px;
+	padding-top: 62px;
+}
+
+.about-block.joe .about {
+	padding-left: 35px;
+	padding-right: 40px;
+	margin-left: -5px;
 }
 
 .about-block.keyboard {
