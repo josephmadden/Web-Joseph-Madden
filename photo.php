@@ -4,6 +4,26 @@
 <div class="container">
 
 	<div class="photo-set">
+		<h3>People photography</h3>
+		<div class="photo">
+			<img src="/thumbs/full-people-1.jpg">
+			<div class="caption">Some nice photos of people</div>
+		</div>
+		<div class="thumbs">
+			<img src="/thumbs/thumb-people-1.jpg" data-image="/thumbs/full-people-1.jpg" />
+			<img src="/thumbs/thumb-people-2.jpg" data-image="/thumbs/full-people-2.jpg" />
+			<img src="/thumbs/thumb-people-3.jpg" data-image="/thumbs/full-people-3.jpg" />
+			<img src="/thumbs/thumb-people-4.jpg" data-image="/thumbs/full-people-4.jpg" />
+			<img src="/thumbs/thumb-people-5.jpg" data-image="/thumbs/full-people-5.jpg" />
+			<img src="/thumbs/thumb-people-6.jpg" data-image="/thumbs/full-people-6.jpg" />
+			<img src="/thumbs/thumb-people-7.jpg" data-image="/thumbs/full-people-7.jpg" />
+			<img src="/thumbs/thumb-people-8.jpg" data-image="/thumbs/full-people-8.jpg" />
+		</div>
+	</div>
+
+	<hr class="big" />
+
+	<div class="photo-set">
 		<h3>IDA - Posters &amp; Screenshots</h3>
 		<div class="photo">
 			<img src="/thumbs/full-ida-poster-1-1800px.jpg">
