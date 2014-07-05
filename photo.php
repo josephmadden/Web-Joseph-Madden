@@ -7,17 +7,17 @@
 		<h3>People photography</h3>
 		<div class="photo">
 			<img src="/thumbs/full-people-1.jpg">
-			<div class="caption">Some nice photos of people</div>
+			<div class="caption">David Cameron, Prime Minister</div>
 		</div>
 		<div class="thumbs">
-			<img src="/thumbs/thumb-people-1.jpg" data-image="/thumbs/full-people-1.jpg" />
-			<img src="/thumbs/thumb-people-2.jpg" data-image="/thumbs/full-people-2.jpg" />
-			<img src="/thumbs/thumb-people-3.jpg" data-image="/thumbs/full-people-3.jpg" />
-			<img src="/thumbs/thumb-people-4.jpg" data-image="/thumbs/full-people-4.jpg" />
-			<img src="/thumbs/thumb-people-5.jpg" data-image="/thumbs/full-people-5.jpg" />
-			<img src="/thumbs/thumb-people-6.jpg" data-image="/thumbs/full-people-6.jpg" />
-			<img src="/thumbs/thumb-people-7.jpg" data-image="/thumbs/full-people-7.jpg" />
-			<img src="/thumbs/thumb-people-8.jpg" data-image="/thumbs/full-people-8.jpg" />
+			<img src="/thumbs/thumb-people-1.jpg" data-image="/thumbs/full-people-1.jpg" data-description="David Cameron, Prime Minister"/>
+			<img src="/thumbs/thumb-people-2.jpg" data-image="/thumbs/full-people-2.jpg" data-description="Mollie Madden, Best Sister"/>
+			<img src="/thumbs/thumb-people-3.jpg" data-image="/thumbs/full-people-3.jpg" data-description="Mark Knowler, Project Manager and Motivational Speaker"/>
+			<img src="/thumbs/thumb-people-4.jpg" data-image="/thumbs/full-people-4.jpg" data-description="Damian McGloughlin, B&amp;Q Retail Director"/>
+			<img src="/thumbs/thumb-people-5.jpg" data-image="/thumbs/full-people-5.jpg" data-description="Tom Camfield, Actor"/>
+			<img src="/thumbs/thumb-people-6.jpg" data-image="/thumbs/full-people-6.jpg" data-description="Tom Camfield, Model and Housemate"/>
+			<img src="/thumbs/thumb-people-7.jpg" data-image="/thumbs/full-people-7.jpg" data-description="Jen Verrall, Happiest person I know"/>
+			<img src="/thumbs/thumb-people-8.jpg" data-image="/thumbs/full-people-8.jpg" data-description="Lolly Adefope, Comedian"/>
 		</div>
 	</div>
 
@@ -27,7 +27,7 @@
 		<h3>IDA - Posters &amp; Screenshots</h3>
 		<div class="photo">
 			<img src="/thumbs/full-ida-poster-1-1800px.jpg">
-			<div class="caption">Photography and designs from my upcoming feature film, IDA</div>
+			<div class="caption">Photography and designs from my upcoming feature film, <a href='http://josephmadden.co.uk/video#_x2cz_Z6hFk' target='_blank'>IDA</a></div>
 		</div>
 		<div class="thumbs">
 			<img src="/thumbs/thumb-ida-poster-1.jpg" data-image="/thumbs/full-ida-poster-1-1800px.jpg" />
@@ -55,7 +55,7 @@
 		<h3>Lynnwood Book Launch</h3>
 		<div class="photo">
 			<img src="/thumbs/full-tjb-triptych.jpg">
-			<div class="caption">Book launch for Thomas Brown's debut novel Lynnwood</div>
+			<div class="caption">Book launch for Thomas Brown's debut novel <a href='http://tbrownonline.wordpress.com/books/' target='_blank'>Lynnwood</a></div>
 		</div>
 		<div class="thumbs">
 			<img src="/thumbs/thumb-tjb-1515.jpg" data-image="/thumbs/full-tjb-1515.jpg" />
@@ -75,7 +75,7 @@
 		<h3>'On My Way' - Behind the scenes</h3>
 		<div class="photo">
 			<img src="/thumbs/full-rdf-triptych.jpg">
-			<div class="caption">Behind the scenes with Red Deer Films on their music video for S.O. Simple's 'On My Way'</div>
+			<div class="caption">Behind the scenes with <a href='http://www.reddeerfilms.co.uk/' target='_blank'>Red Deer Films</a> on their music video for S.O. Simple's <a href='http://vimeo.com/72515016' target='_blank'>On My Way</a></div>
 		</div>
 		<div class="thumbs">
 			<img src="/thumbs/thumb-rdf-2-1.jpg" data-image="/thumbs/full-rdf-2-1.jpg" />
