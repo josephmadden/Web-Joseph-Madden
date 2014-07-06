@@ -14,7 +14,7 @@
 			<p>Original score by <em><a href='http://soundcloud.com/david-a-martin' target='_blank'>David A. Martin</a></em></p>
 			<p>Starring: <em>Ida Wibe Hagen, Benjamin Pirie, Andrea Woods, Chris George, Douglas Linssen, Maria Paris, Niall Shukla and Ionut Razvan-Barbu</em></p>
 			<p>Also featuring: <em>Dan Ralls, David Minac, Shane Callagy, Sam Moss, Sam Basinger, Chris Cann, James Brant, Andre Pusey, Josh Thompson, Nick Johnson, Chris McGeehan, James Rands, Joey Nathan, Tom Camfield, George Lavis, Alex Pirie, Adam Jackson, Tom Fyans</em></p>
-			<p>Runners: <em>Anna Saracka, Chloe Philippou, George Brereton, Dan Ralls</em></p>
+			<p>Runners: <em>Anna Saracka, <a href='http://chloephilippou.com' target='_blank'>Chloe Philippou</a>, George Brereton, Dan Ralls</em></p>
 			<p>BTS photography: <em>Chris McGeehan</em></p>"
 		),
 
@@ -22,7 +22,7 @@
 			"data-title" => "B&Q Spring Summer Press Show 2014",
 			"thumbnail" => "/thumbs/vid-thumb-bqpress-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-bqpress-2.png",
-			"data-description" => "<p>Produced and directed by <em>Stephanie Mann</em></p>
+			"data-description" => "<p>Produced and directed by <em>Stephanie Mann</em> for <a href='http://www.diy.com' target='_blank'>B&Q</a></p>
 			<p>Shot and edited by <em>Joseph Madden</em></p>
 			<p>Production assistant: <em>Gemma Smith</em></p>"
 		),
@@ -30,7 +30,7 @@
 			"data-title" => "Kingfisher's One Team Product Show",
 			"thumbnail" => "/thumbs/vid-thumb-otps-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-otps-2.png",
-			"data-description" => "I filmed and edited this as part of the coverage of Kingfisher's 5 day event for its store employees in Lille, France, in October 2013.<p> Featuring interviews with Sir Ian Cheshire (Group CEO, Kingfisher Group), Kevin O' Byrne (CEO, B&Q UK & Ireland), Véronique Laury (CEO, Castorama France) and more.</p>
+			"data-description" => "I filmed and edited this as part of the coverage of <a href='http://www.kingfisher.com/index.asp?pageid=161&mediaid=809&startrow=1&category=all' target='_blank'>Kingfisher</a>'s 5 day event for its store employees in Lille, France, in October 2013.<p> Featuring interviews with Sir Ian Cheshire (Group CEO, Kingfisher Group), Kevin O' Byrne (CEO, B&Q UK & Ireland), Véronique Laury (CEO, Castorama France) and more.</p>
 			<p>Produced and directed by <em>Nadia Bonomally</em></p>
 			<p>Shot and edited by <em>Joseph Madden</em></p>
 			<p>Production assistant: <em>Douglas Linssen</em></p>"
@@ -61,13 +61,13 @@
 			<p>Produced by <em>Joseph Madden and Ida Wibe Hagen</em> for Smart Casual Pictures</p>
 			<p>Cinematography, editing and VFX by Joseph Madden</em></p>
 			<p>Starring <em>Ida Wibe Hagen, Tom Camfield, Fern Harffey</em></p>
-			<p>Runner: <em>Chloe Philippou</em>"
+			<p>Runner: <em><a href='http://chloephilippou.com' target='_blank'>Chloe Philippou</a></em>"
 		),
 		"cFfi1icNR6A" => array(
 			"data-title" => "Short Fuse",
 			"thumbnail" => "/thumbs/vid-thumb-short-fuse-2.jpg",
 			"text-image" => "/thumbs/vid-thumb-short-fuse-2.png",
-			"data-description" => "A short film I worked on with Smart Casual Pictures for the London 48 Hour Project 2013. The theme we were given was superheroes. I was co-cinematographer and editor, which explains why we ended up with a girl who could shoot lightning. An exhausting but inspiring weekend with a great bunch of old and new friends.</p>
+			"data-description" => "A short film I worked on with Smart Casual Pictures for the <a href='http://www.48hourfilm.com' target='_blank'>London 48 Hour Film Project 2013</a>. The theme we were given was superheroes. I was co-cinematographer and editor, which explains why we ended up with a girl who could shoot lightning. An exhausting but inspiring weekend with a great bunch of old and new friends.</p>
 			<p>Produced by <em>Rory Yeung</em> for Smart Casual Pictures</p>
 <p>Directed by <em>James Clayton</em></p>
 <p>Written by <em><a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a> and Christopher Francis</em></p>
@@ -81,7 +81,7 @@
 			"data-title" => "MC Threat - Mars",
 			"thumbnail" => "/thumbs/vid-thumb-mc-threat-mars-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-mc-threat-mars-2.png",
-			"data-description" => "The debut single from <a href='http://www.mcthreat.com/main/' target='_blank'>MC Threat's Time Travelling Rap Album</a>. I helped him make this video one weekend in return for him helping me make this website.</p>
+			"data-description" => "The debut single from <a href='http://www.mcthreat.com/main' target='_blank'>MC Threat's Time Travelling Rap Album</a>. I helped him make this video one weekend in return for him helping me make this website.</p>
 			<p>Directed, shot and edited by <em>Joseph Madden</em></p>
 			<p>Produced by <em><a href='http://joshthompson.co.uk/' target='_blank'>Josh Thompson</a></em></p>
 			<p>Starring <em>Josh Thompson, Joey Nathan and Nick Johnson</em></p>

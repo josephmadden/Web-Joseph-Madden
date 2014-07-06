@@ -4,7 +4,7 @@
 
 		<!-- META INFORMATION -->
 		<title>Joseph Madden<?=isset($page_title)?" | $page_title":""?></title>
-		<meta name="description" content="Joseph Madden Visuals - Why make a living when you can make a legacy?" />
+		<meta name="description" content="Joseph Madden - Video • Photo • Design" />
 		<meta name="author" content="Joseph Madden" />
 
 		<!-- META DATA -->
