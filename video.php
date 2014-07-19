@@ -4,11 +4,12 @@
 <?	
 	$videos = array(
 
-		"3r2VNCzv_xU" => array(
-			"data-title" => "Joseph Madden Showreel 2014",
+
+		"ZsqpY2zBrGY" => array(
+			"data-title" => "Joseph Madden - Showreel 2014",
 			"thumbnail" => "/thumbs/vid-thumb-showreel-1.jpg",
-			"text-image" => "/thumbs/vid-thumb-showreel-2.png",
-			"data-description" => "Cinematography, editing and motion graphics by <em>Joseph Madden</em></p>"
+			"text-image" => "/thumbs/vid-thumb-showreel-3.png",
+			"data-description" => "Cinematography, editing and motion graphics by Joseph Madden"
 		),
 
 		"_x2cz_Z6hFk" => array(
