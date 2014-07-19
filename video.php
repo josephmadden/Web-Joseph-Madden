@@ -3,6 +3,14 @@
 
 <?	
 	$videos = array(
+
+		"3r2VNCzv_xU" => array(
+			"data-title" => "Joseph Madden Showreel 2014",
+			"thumbnail" => "/thumbs/vid-thumb-showreel-1.jpg",
+			"text-image" => "/thumbs/vid-thumb-showreel-2.png",
+			"data-description" => "Cinematography, editing and motion graphics by <em>Joseph Madden</em></p>"
+		),
+
 		"_x2cz_Z6hFk" => array(
 			"data-title" => "IDA - Official Trailer (2014)",
 			"thumbnail" => "/thumbs/vid-thumb-ida-trailer-2.jpg",
@@ -25,6 +33,16 @@
 			"data-description" => "<p>Produced and directed by <em>Stephanie Mann</em> for <a href='http://www.diy.com' target='_blank'>B&Q</a></p>
 			<p>Shot and edited by <em>Joseph Madden</em></p>
 			<p>Production assistant: <em>Gemma Smith</em></p>"
+		),
+
+		"ThelyihlVYU" => array(
+			"data-title" => "B&Q Autumn Winter Press Show 2014",
+			"thumbnail" => "/thumbs/vid-thumb-awpress-1.jpg",
+			"text-image" => "/thumbs/vid-thumb-awpress-2.png",
+			"data-description" => "<p>Produced by <em>Myrhh Fletcher</em> for <a href='http://www.diy.com' target='_blank'>B&Q</a></p>
+			<p>Directed, shot and edited by <em>Joseph Madden</em></p>
+			<p>Production assistant: <em>Gemma Smith</em></p>
+			<p>Camera assistant: <em>Ida Wibe Hagen</em></p>"
 		),
 		"NqHNnp7o8RM" => array(
 			"data-title" => "Kingfisher's One Team Product Show",
@@ -63,6 +81,7 @@
 			<p>Starring <em>Ida Wibe Hagen, Tom Camfield, Fern Harffey</em></p>
 			<p>Runner: <em><a href='http://chloephilippou.com' target='_blank'>Chloe Philippou</a></em>"
 		),
+
 		"cFfi1icNR6A" => array(
 			"data-title" => "Short Fuse",
 			"thumbnail" => "/thumbs/vid-thumb-short-fuse-2.jpg",
