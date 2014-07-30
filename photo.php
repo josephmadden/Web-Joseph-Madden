@@ -23,6 +23,27 @@
 
 	<hr class="big" />
 
+<div class="photo-set">
+		<h3>Class of 2014</h3>
+		<div class="photo">
+			<img src="/thumbs/full-grad-1.jpg">
+			<div class="caption">Ida Wibe Hagen, BA (Hons)</div>
+		</div>
+		<div class="thumbs">
+			<img src="/thumbs/thumb-grad-1.jpg" data-image="/thumbs/full-grad-1.jpg" data-description="Ida Wibe Hagen, BA (Hons)"/>
+			<img src="/thumbs/thumb-grad-2.jpg" data-image="/thumbs/full-grad-2.jpg" data-description="Emily White and Ida Wibe Hagen, BA (Hons)"/>
+			<img src="/thumbs/thumb-grad-3.jpg" data-image="/thumbs/full-grad-3.jpg" data-description="Alysia Wildman, BA (Hons)"/>
+			<img src="/thumbs/thumb-grad-4.jpg" data-image="/thumbs/full-grad-4-1.jpg" data-description="Fern Harrfey, BA (Hons)"/>
+			<img src="/thumbs/thumb-grad-5.jpg" data-image="/thumbs/full-grad-5.jpg" data-description="University of Sheffield"/>
+			<img src="/thumbs/thumb-grad-6.jpg" data-image="/thumbs/full-grad-6.jpg" data-description="Mollie Madden, BA (Hons)"/>
+			<img src="/thumbs/thumb-grad-7.jpg" data-image="/thumbs/full-grad-7.jpg" data-description="Mollie and Mum"/>
+			<img src="/thumbs/thumb-grad-8.jpg" data-image="/thumbs/full-grad-8.jpg" data-description="Mollie again"/>
+		</div>
+	</div>
+
+	<hr class="big" />
+
+
 	<div class="photo-set">
 		<h3>IDA - Posters &amp; Screenshots</h3>
 		<div class="photo">

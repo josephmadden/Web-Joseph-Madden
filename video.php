@@ -4,12 +4,11 @@
 <?	
 	$videos = array(
 
-
 		"ZsqpY2zBrGY" => array(
 			"data-title" => "Joseph Madden - Showreel 2014",
 			"thumbnail" => "/thumbs/vid-thumb-showreel-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-showreel-3.png",
-			"data-description" => "Cinematography, editing and motion graphics by Joseph Madden"
+			"data-description" => "Cinematography, editing and motion graphics by <em>Joseph Madden</em>"
 		),
 
 		"_x2cz_Z6hFk" => array(
@@ -115,7 +114,7 @@
 
 	<div class="photo-set">
 		<h3>Videos</h3>
-		<iframe class="video" src="//www.youtube.com/embed/_x2cz_Z6hFk" frameborder="0" allowfullscreen></iframe>
+		<iframe class="video" src="//www.youtube.com/embed/ZsqpY2zBrGY" frameborder="0" allowfullscreen></iframe>
 		<p class="caption"></p>
 		<hr/>
 		<div class="thumbs large">
