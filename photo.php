@@ -4,6 +4,32 @@
 <div class="container">
 
 	<div class="photo-set">
+		<h3>W.S. Studio - New Collection</h3>
+		<div class="photo">
+			<img src="/thumbs/full-ws-cover.jpg">
+			<div class="caption">Designs and styling by W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>.</div>
+		</div>
+		<div class="thumbs">
+			<img src="/thumbs/thumb-ws-1.jpg" data-image="/thumbs/full-ws-1.jpg" data-description="Jessica Cleary for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-2.jpg" data-image="/thumbs/full-ws-2.jpg" data-description="Jessica Cleary for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-3.jpg" data-image="/thumbs/full-ws-3.jpg" data-description="Annabelle Strutt for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-4.jpg" data-image="/thumbs/full-ws-4.jpg" data-description="Annabelle Strutt for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-5.jpg" data-image="/thumbs/full-ws-5.jpg" data-description="Jessica Cleary and Annabelle Strutt for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-6.jpg" data-image="/thumbs/full-ws-6.jpg" data-description="Jessica Cleary for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-7.jpg" data-image="/thumbs/full-ws-7.jpg" data-description="Annabelle Strutt for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-8.jpg" data-image="/thumbs/full-ws-8.jpg" data-description="Jessica Cleary for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-9.jpg" data-image="/thumbs/full-ws-9.jpg" data-description="Annabelle Strutt for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-10.jpg" data-image="/thumbs/full-ws-10.jpg" data-description="Annabelle Strutt for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-11.jpg" data-image="/thumbs/full-ws-11.jpg" data-description="Jessica Cleary for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-12.jpg" data-image="/thumbs/full-ws-12.jpg" data-description="Jessica Cleary for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-13.jpg" data-image="/thumbs/full-ws-13.jpg" data-description="Jessica Cleary and Annabelle Strutt for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-14.jpg" data-image="/thumbs/full-ws-14.jpg" data-description="Annabelle Strutt for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-15.jpg" data-image="/thumbs/full-ws-15.jpg" data-description="Jessica Cleary for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+			<img src="/thumbs/thumb-ws-16.jpg" data-image="/thumbs/full-ws-16.jpg" data-description="Annabelle Strutt for W.S. Studio. Photography by Joseph Madden and <a href='http://www.patricklarder.com/' target='_blank'>Patrick Larder</a>."/>
+		</div>
+	</div>
+
+	<div class="photo-set">
 		<h3>People photography</h3>
 		<div class="photo">
 			<img src="/thumbs/full-people-1.jpg">
