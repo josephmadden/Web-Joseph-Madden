@@ -137,3 +137,10 @@ $(window).load(function() {
 	setTimeout(photoFader, pause);
 });
 
+// Make anchor links scroll instead of jump
+$("a[href^=#]").click(function(event) {
+	var anchor = $($(this).attr("href"));
+	$("html, body").animate({scrollTop: $(anchor).offset().top}, 'slow');
+	event.preventDefault();
+});
+

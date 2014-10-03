@@ -3,6 +3,8 @@
 
 <div class="container">
 
+	<a href="#IDA">Test to move to IDA Page</a>
+
 	<div class="photo-set">
 		<h3>W.S. Studio - New Collection</h3>
 		<div class="photo">
@@ -70,7 +72,7 @@
 	<hr class="big" />
 
 
-	<div class="photo-set">
+	<div id="IDA" class="photo-set">
 		<h3>IDA - Posters &amp; Screenshots</h3>
 		<div class="photo">
 			<img src="/thumbs/full-ida-poster-1-1800px.jpg">
