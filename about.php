@@ -4,10 +4,10 @@
 <div class="container">
 
 	<div id="about-text">
-		<p><p>I'm a creative professional with a strong background in multimedia production, digital marketing and internal communications.</p></p>
-		<p>I’ve spent the past two years producing corporate videos and developing the media communications strategy for a major retail business. In my spare time I freelance as a videographer and designer on any projects that sound like I’ll have fun doing them.</p>
-		<p>I also make sketches and short films with my friends, regularly acting, directing and shooting whatever half-baked idea we’ve happened upon.</p>
-		<p>I’m always looking to get involved with exciting projects and meet new friends in the creative industries, so let’s have a chat.</p>
+		<p><p>I’m a freelance filmmaker and photographer, currently based in London and the South Coast but regularly travelling across the country for work.</p></p>
+		<p>I’ve spent the past two years working as a producer and in-house videographer for a major retail business, creating corporate videos and shaping the way they use multimedia in their communications.</p>
+		<p>These days I work with advertising agencies, production companies and client businesses on advertorial shoots, covering events, and creating original promotional content.</p>
+		<p>I also love directing music videos, shooting for fashion, and working on short films. I’m always looking to get involved with exciting projects and meet new friends in the creative industries, so get in touch!</p>
 		<p id="phone-link"><a href="tel:07860882954">07860 882954</a></p>
 		<p id="email-link"><a href="mailto:joe@josephmadden.co.uk" target="_blank">joe@josephmadden.co.uk</a></p>
 

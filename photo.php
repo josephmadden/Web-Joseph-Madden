@@ -3,7 +3,47 @@
 
 <div class="container">
 
-	<div class="photo-set">
+<div id="humphrey-sitima" class="photo-set">
+		<h3>Humphrey Sitima - Stills &amp; Promo Shots</h3>
+		<div class="photo">
+			<img src="/thumbs/full-hum-1.jpg">
+			<div class="caption">Stills and promo shots from <a href='http://youtu.be/-_X04muuWdc' target='_blank'>Dracula Please Watch Over Me (Music Video)</a> by <a href='https://twitter.com/TH_Sitima/' target='_blank'>Humphrey Sitima</a>.</div>
+		</div>
+		<div class="thumbs">
+			<img src="/thumbs/thumb-hum-1.jpg" data-image="/thumbs/full-hum-1.jpg" data-description="Stills and promo shots from <a href='http://youtu.be/-_X04muuWdc' target='_blank'>Dracula Please Watch Over Me (Music Video)</a> by <a href='https://twitter.com/TH_Sitima/' target='_blank'>Humphrey Sitima</a>."/>
+			<img src="/thumbs/thumb-hum-2.jpg" data-image="/thumbs/full-hum-2.jpg" data-description="Stills and promo shots from <a href='http://youtu.be/-_X04muuWdc' target='_blank'>Dracula Please Watch Over Me (Music Video)</a> by <a href='https://twitter.com/TH_Sitima/' target='_blank'>Humphrey Sitima</a>."/>
+			<img src="/thumbs/thumb-hum-3.jpg" data-image="/thumbs/full-hum-3.jpg" data-description="Stills and promo shots from <a href='http://youtu.be/-_X04muuWdc' target='_blank'>Dracula Please Watch Over Me (Music Video)</a> by <a href='https://twitter.com/TH_Sitima/' target='_blank'>Humphrey Sitima</a>."/>
+			<img src="/thumbs/thumb-hum-4.jpg" data-image="/thumbs/full-hum-4.jpg" data-description="Stills and promo shots from <a href='http://youtu.be/-_X04muuWdc' target='_blank'>Dracula Please Watch Over Me (Music Video)</a> by <a href='https://twitter.com/TH_Sitima/' target='_blank'>Humphrey Sitima</a>."/>
+			<img src="/thumbs/thumb-hum-5.jpg" data-image="/thumbs/full-hum-5.jpg" data-description="Stills and promo shots from <a href='http://youtu.be/-_X04muuWdc' target='_blank'>Dracula Please Watch Over Me (Music Video)</a> by <a href='https://twitter.com/TH_Sitima/' target='_blank'>Humphrey Sitima</a>."/>
+			<img src="/thumbs/thumb-hum-6.jpg" data-image="/thumbs/full-hum-6.jpg" data-description="Stills and promo shots from <a href='http://youtu.be/-_X04muuWdc' target='_blank'>Dracula Please Watch Over Me (Music Video)</a> by <a href='https://twitter.com/TH_Sitima/' target='_blank'>Humphrey Sitima</a>."/>
+			<img src="/thumbs/thumb-hum-7.jpg" data-image="/thumbs/full-hum-7.jpg" data-description="Stills and promo shots from <a href='http://youtu.be/-_X04muuWdc' target='_blank'>Dracula Please Watch Over Me (Music Video)</a> by <a href='https://twitter.com/TH_Sitima/' target='_blank'>Humphrey Sitima</a>."/>
+			<img src="/thumbs/thumb-hum-8.jpg" data-image="/thumbs/full-hum-8.jpg" data-description="Stills and promo shots from <a href='http://youtu.be/-_X04muuWdc' target='_blank'>Dracula Please Watch Over Me (Music Video)</a> by <a href='https://twitter.com/TH_Sitima/' target='_blank'>Humphrey Sitima</a>."/>
+		</div>
+	</div>
+
+	<hr class="big" />
+
+<div id="national-adoption-week" class="photo-set">
+		<h3>National Adoption Week</h3>
+		<div class="photo">
+			<img src="/thumbs/full-nad-custom.jpg">
+			<div class="caption">National Adoption Week Awards Evening - Shot for <a href='http://www.kindredagency.com/' target='_blank'>Kindred PR</a>.</div>
+		</div>
+		<div class="thumbs">
+			<img src="/thumbs/thumb-nad-1.jpg" data-image="/thumbs/full-nad-1.jpg" data-description="<a href='http://www.facebook.com/First4Adoption' target='_blank'>First4Adoption</a> at National Adoption Week - Shot for <a href='http://www.kindredagency.com/' target='_blank'>Kindred PR</a>."/>
+			<img src="/thumbs/thumb-nad-2.jpg" data-image="/thumbs/full-nad-2.jpg" data-description="<a href='http://www.facebook.com/First4Adoption' target='_blank'>First4Adoption</a> at National Adoption Week - Shot for <a href='http://www.kindredagency.com/' target='_blank'>Kindred PR</a>."/>
+			<img src="/thumbs/thumb-nad-3.jpg" data-image="/thumbs/full-nad-3.jpg" data-description="<a href='http://www.facebook.com/First4Adoption' target='_blank'>First4Adoption</a> at National Adoption Week - Shot for <a href='http://www.kindredagency.com/' target='_blank'>Kindred PR</a>."/>
+			<img src="/thumbs/thumb-nad-4.jpg" data-image="/thumbs/full-nad-4.jpg" data-description="<a href='http://www.facebook.com/First4Adoption' target='_blank'>First4Adoption</a> at National Adoption Week - Shot for <a href='http://www.kindredagency.com/' target='_blank'>Kindred PR</a>."/>
+			<img src="/thumbs/thumb-nad-5.jpg" data-image="/thumbs/full-nad-5-1.jpg" data-description="<a href='http://www.facebook.com/First4Adoption' target='_blank'>First4Adoption</a> at National Adoption Week - Shot for <a href='http://www.kindredagency.com/' target='_blank'>Kindred PR</a>."/>
+			<img src="/thumbs/thumb-nad-6.jpg" data-image="/thumbs/full-nad-6.jpg" data-description="<a href='http://www.facebook.com/First4Adoption' target='_blank'>First4Adoption</a> at National Adoption Week - Shot for <a href='http://www.kindredagency.com/' target='_blank'>Kindred PR</a>."/>
+			<img src="/thumbs/thumb-nad-7.jpg" data-image="/thumbs/full-nad-7.jpg" data-description="<a href='http://www.facebook.com/First4Adoption' target='_blank'>First4Adoption</a> at National Adoption Week - Shot for <a href='http://www.kindredagency.com/' target='_blank'>Kindred PR</a>."/>
+			<img src="/thumbs/thumb-nad-8.jpg" data-image="/thumbs/full-nad-8.jpg" data-description="<a href='http://www.facebook.com/First4Adoption' target='_blank'>First4Adoption</a> at National Adoption Week - Shot for <a href='http://www.kindredagency.com/' target='_blank'>Kindred PR</a>."/>
+		</div>
+	</div>
+
+	<hr class="big" />
+
+<div id="ws-studio" class="photo-set">
 		<h3>W.S. Studio - New Collection</h3>
 		<div class="photo">
 			<img src="/thumbs/full-ws-cover.jpg">
@@ -29,7 +69,26 @@
 		</div>
 	</div>
 
-	<div class="photo-set">
+	<hr class="big" />
+
+	<div id="foxs-biscuits" class="photo-set">
+		<h3>Fox's Biscuits - Vinnie the Panda</h3>
+		<div class="photo">
+			<img src="/thumbs/full-foxes-1.jpg">
+			<div class="caption"> <a href='https://www.facebook.com/vinnie/' target='_blank'>Vinnie the Panda</a> gets the job of Chief Biscuit Officer. Shot as part of <a href='http://www.motherlondon.com/' target='_blank'>Mother London</a>'s campaign for <a href='http://www.foxs-biscuits.co.uk/' target='_blank'>Fox's Biscuits</a>.</div>
+		</div>
+		<div class="thumbs">
+			<img src="/thumbs/thumb-foxes-1.jpg" data-image="/thumbs/full-foxes-1.jpg" />
+			<img src="/thumbs/thumb-foxes-2.jpg" data-image="/thumbs/full-foxes-2.jpg" />
+			<img src="/thumbs/thumb-foxes-3.jpg" data-image="/thumbs/full-foxes-3.jpg" />
+			<img src="/thumbs/thumb-foxes-4.jpg" data-image="/thumbs/full-foxes-4.jpg" />
+			<img src="/thumbs/thumb-foxes-5.jpg" data-image="/thumbs/full-foxes-5.jpg" />
+		</div>
+	</div>
+	
+	<hr class="big" />
+
+	<div id="people-photography" class="photo-set">
 		<h3>People photography</h3>
 		<div class="photo">
 			<img src="/thumbs/full-people-1.jpg">
@@ -49,7 +108,7 @@
 
 	<hr class="big" />
 
-<div class="photo-set">
+	<div id="class-of-2014" class="photo-set">
 		<h3>Class of 2014</h3>
 		<div class="photo">
 			<img src="/thumbs/full-grad-1.jpg">
@@ -71,6 +130,10 @@
 
 
 	<div class="photo-set">
+
+
+	<div id="ida" class="photo-set">
+
 		<h3>IDA - Posters &amp; Screenshots</h3>
 		<div class="photo">
 			<img src="/thumbs/full-ida-poster-1-1800px.jpg">
@@ -98,7 +161,7 @@
 
 	<hr class="big" />
 
-	<div class="photo-set">
+	<div id="lynnwood-book-launch" class="photo-set">
 		<h3>Lynnwood Book Launch</h3>
 		<div class="photo">
 			<img src="/thumbs/full-tjb-triptych.jpg">
@@ -118,7 +181,7 @@
 
 	<hr class="big" />
 
-	<div class="photo-set">
+	<div id="so-simple" class="photo-set">
 		<h3>'On My Way' - Behind the scenes</h3>
 		<div class="photo">
 			<img src="/thumbs/full-rdf-triptych.jpg">
@@ -146,7 +209,7 @@
 
 	<hr class="big" />
 
-	<div class="photo-set">
+	<div id="man-day-2012" class="photo-set">
 		<h3>MAN DAY 2012</h3>
 		<div class="photo">
 			<img src="/images/home-man-day-1800px.jpg">
