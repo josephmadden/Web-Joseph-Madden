@@ -31,19 +31,21 @@ function resizePhotoSet() {
 
 $(document).ready(function() {
 	if (window.location.hash) {
-		$("[data-video='"+window.location.hash.substr(1)+"']").click();
+		var hash = window.location.hash.substr(1);
+		$("[data-youtube='"+hash+"'], [data-vimeo='"+hash+"']").click();
 	}
 });
 
 // Thumbnails clicked
 $(".photo-set .thumbs > *").click(function() {
 	var image = $(this).is("[data-image]") ? $(this).attr('data-image') : $(this).attr('src');
-	var video = $(this).attr('data-video');
+	var video = $(this).attr('data-youtube') || $(this).attr('data-vimeo');
 	var description = $(this).attr('data-description');
 	var title = $(this).attr('data-title');
 
-	if ($(this).is("[data-video]")) {
-		$(this).closest(".photo-set").find(".video").attr('src', "//www.youtube.com/embed/"+video+"?autoplay=1");
+	if ($(this).is("[data-youtube]") || $(this).is("[data-vimeo]")) {
+		var base_url = $(this).is("[data-youtube]") ? "//www.youtube.com/embed/" : "//player.vimeo.com/video/";
+		$(this).closest(".photo-set").find(".video").attr('src', base_url + video + "?autoplay=1");
 		window.location.hash = video;
 		$(this).closest(".photo-set").find(".caption").html(description);
 	} else {
@@ -113,7 +115,6 @@ $(".photo-set .photo img").load(resizePhotoSet);
 $(window).resize(resizePhotoSet);
 
 // Homepage Fader
-
 $(window).load(function() {
 	$(".photo-fader").each(function() {
 		$(this).children().css({display: 'block', opacity: 1});
