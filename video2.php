@@ -7,8 +7,8 @@
 		array(
 			"vimeo" => "120538042",
 			"data-title" => "Vimeo Test",
-			"thumbnail" => "https://f.vimeocdn.com/images_v6/logo.png",
-			"text-image" => "http://www.visiblemeasures.com/wp-content/uploads/2013/04/vimeo_logo_white_on_blue.jpg",
+			"thumbnail" => "/thumbs/vid-thumb-showreel-1.jpg",
+			"text-image" => "/thumbs/vid-thumb-showreel-3.png",
 			"data-description" => "Cinematography, editing and motion graphics by <em>Joseph Madden</em>"
 		),
 
@@ -20,8 +20,7 @@
 			"data-description" => "Cinematography, editing and motion graphics by Joseph Madden"
 		),
 
-		array(
-			"youtube" => "dWrJqL9p5EY",
+		"dWrJqL9p5EY" => array(
 			"data-title" => "Misread Heartbreak - Sabrina (feat. Ricardo Hinds)",
 			"thumbnail" => "/thumbs/vid-thumb-sabrina-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-sabrina-2.png",
@@ -33,16 +32,14 @@
 			<p>Editor: Joseph Madden</p>"
 		),
 
-		array(
-			"youtube" => "VNAP1-HIWZY",
+		"VNAP1-HIWZY" => array(
 			"data-title" => "London Fashion Magazine | ZERO Magazine",
 			"thumbnail" => "/thumbs/vid-thumb-lfw-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-lfw-2.png",
 			"data-description" => "Shot and edited by Joseph Madden for <a href='http://www.zero-magazine.co.uk/' target='_blank'>ZERO Magazine</a>"
 		),
 
-		array(
-			"youtube" => "fuV_0XmUQQk",
+	"fuV_0XmUQQk" => array(
 			"data-title" => "Sunset - 4REAL",
 			"thumbnail" => "/thumbs/vid-thumb-kye-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-kye-2.png",
@@ -56,8 +53,7 @@
 			<p>Stills Photographer: <a href='http://www.darnelltemenu.com/' target='_blank'>Darnell Temenu</a></p>"
 		),
 
-		array(
-			"youtube" => "RFYOg56RuKk",
+		"RFYOg56RuKk" => array(
 			"data-title" => "MC Threat - Mars",
 			"thumbnail" => "/thumbs/vid-thumb-mc-threat-mars-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-mc-threat-mars-2.png",
@@ -104,9 +100,13 @@
 			<p>Production assistant: Gemma Smith</p>
 			<p>Camera assistant: Ida Wibe Hagen</p>"
 		),
+<<<<<<< HEAD
 
+		"NqHNnp7o8RM" => array(
+=======
 		array(
 			"youtube" => "NqHNnp7o8RM",
+>>>>>>> origin/master
 			"data-title" => "Kingfisher's One Team Product Show",
 			"thumbnail" => "/thumbs/vid-thumb-otps-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-otps-2.png",
@@ -116,8 +116,7 @@
 			<p>Production assistant: Douglas Linssen</p>"
 		),
 
-		array(
-			"youtube" => "MN6jiVf2iw0",
+		"MN6jiVf2iw0" => array(
 			"data-title" => "BeyondMe Boot Camp 2014",
 			"thumbnail" => "/thumbs/vid-thumb-beyondme-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-beyondme-2.png",
@@ -125,16 +124,19 @@
 			<p>Shot and edited by Joseph Madden</p>"
 		),
 
-		array(
-			"youtube" => "-H96m0ZKnNM",
+		"-H96m0ZKnNM" => array(
 			"data-title" => "Lynnwood - Thomas Brown book launch",
 			"thumbnail" => "/thumbs/vid-thumb-tjb-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-tjb-2.png",
 			"data-description" => "I photographed Tom in late 2012 for the inside cover photo of his debut novel, <a href='http://tbrownonline.wordpress.com/books/' target='_blank'>Lynnwood</a>. So when he invited me to <a href='http://josephmadden.co.uk/photo' target='_blank'>photograph its launch at his local Waterstone's</a> the following June I was pretty excited, but definitely wasn’t expecting the kind of fanfare it received. The book sold out within the hour and I’ve never seen so many people in a bookshop at one time. An all round great day out in a beautiful little town in Oxfordshire.<p>I wasn't going to turn up and take photos without filming it as well, so made this little video of the event. Luckily the staff in Waterstone's were very friendly and let me set up camp behind the till with all my gear.</p>"
 		),
+<<<<<<< HEAD
 
+		"pz4PiR03uHY" => array(
+=======
 		array(
 			"youtube" => "pz4PiR03uHY",
+>>>>>>> origin/master
 			"data-title" => "Monkey Burgers",
 			"thumbnail" => "/thumbs/vid-thumb-monkey-burgers-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-monkey-burgers-2.png",
@@ -145,6 +147,28 @@
 			<p>Starring: Pete Williams and Joseph Madden</p>
 			<p>Runners: Ida Wibe Hagen and George Brereton</p>"
 		),
+<<<<<<< HEAD
+=======
+		array(
+			"youtube" => "H96m0ZKnNM",
+			"data-title" => "Lynnwood - Thomas Brown book launch",
+			"thumbnail" => "/thumbs/vid-thumb-tjb-1.jpg",
+			"text-image" => "/thumbs/vid-thumb-tjb-2.png",
+			"data-description" => "I photographed Tom in late 2012 for the inside cover photo of his debut novel, <a href='http://tbrownonline.wordpress.com/books/' target='_blank'>Lynnwood</a>. So when he invited me to <a href='http://josephmadden.co.uk/photo' target='_blank'>photograph its launch at his local Waterstone's</a> the following June I was pretty excited, but definitely wasn’t expecting the kind of fanfare it received. The book sold out within the hour and I’ve never seen so many people in a bookshop at one time. An all round great day out in a beautiful little town in Oxfordshire.<p>I wasn't going to turn up and take photos without filming it as well, so made this little video of the event. Luckily the staff in Waterstone's were very friendly and let me set up camp behind the till with all my gear.</p>"
+		),
+		array(
+			"youtube" => "9sRVFO_w1Zc",
+			"data-title" => "IDA - Teaser Trailer (2012)",
+			"thumbnail" => "/thumbs/vid-thumb-ida-teaser-1.jpg",
+			"text-image" => "/thumbs/vid-thumb-ida-teaser-2.png",
+			"data-description" => "A pet project to teach myself basic VFX that has since spiralled out of control and mutated into a feature film. <p> Directed, shot and edited by myself, and starring Ida Wibe Hagen as a genetically enhanced psychic being hunted down by a shady government agency - think 'Bourne Identity' with superpowers.</p>
+			<p>Written & directed by <em>Joseph Madden</em></p>
+			<p>Produced by <em>Joseph Madden and Ida Wibe Hagen</em> for Smart Casual Pictures</p>
+			<p>Cinematography, editing and VFX by Joseph Madden</em></p>
+			<p>Starring <em>Ida Wibe Hagen, Tom Camfield, Fern Harffey</em></p>
+			<p>Runner: <em><a href='http://chloephilippou.com' target='_blank'>Chloe Philippou</a></em>"
+		),
+>>>>>>> origin/master
 
 		array(
 			"youtube" => "cFfi1icNR6A",
@@ -161,9 +185,9 @@
 			<p>Sound recording by Rory Yeung and Stephen Hope</p>
 			<p>Starring Jenny-May Darcey, Asher Amis, Michael Absalom, Tom Maller</p>"
 		),
+<<<<<<< HEAD
 
-		array(
-			"youtube" => "9sRVFO_w1Zc",
+		"9sRVFO_w1Zc" => array(
 			"data-title" => "IDA - Teaser Trailer (2012)",
 			"thumbnail" => "/thumbs/vid-thumb-ida-teaser-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-ida-teaser-2.png",
@@ -172,7 +196,20 @@
 			<p>Cinematography, editing and VFX by Joseph Madden</p>
 			<p>Starring Ida Wibe Hagen, Tom Camfield, Fern Harffey</p>
 			<p>Runner: <a href='http://chloephilippou.com' target='_blank'>Chloe Philippou</a>"
+		)		
+=======
+		array(
+			"youtube" => "RFYOg56RuKk",
+			"data-title" => "MC Threat - Mars",
+			"thumbnail" => "/thumbs/vid-thumb-mc-threat-mars-1.jpg",
+			"text-image" => "/thumbs/vid-thumb-mc-threat-mars-2.png",
+			"data-description" => "The debut single from <a href='http://www.mcthreat.com/main' target='_blank'>MC Threat's Time Travelling Rap Album</a>. I helped him make this video one weekend in return for him helping me make this website.</p>
+			<p>Directed, shot and edited by <em>Joseph Madden</em></p>
+			<p>Produced by <em><a href='http://joshthompson.co.uk/' target='_blank'>Josh Thompson</a></em></p>
+			<p>Starring <em>Josh Thompson, Joey Nathan and Nick Johnson</em></p>
+			<p>Runners: <em>Sian Warren and Tom Camfield</em></p>"
 		)
+>>>>>>> origin/master
 	);
 ?>
 <script type="text/javascript">var videos = <?=json_encode($videos);?>;</script>

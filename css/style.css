@@ -201,6 +201,7 @@ h3 {
 	padding: 0px 0px;
 	text-align: left;
 	font-size: 0px;
+	overflow: hidden;
 }
 
 .photo-set .thumbs > * {
