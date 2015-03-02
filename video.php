@@ -4,14 +4,24 @@
 <?	
 	$videos = array(
 
-		"ZsqpY2zBrGY" => array(
+		array(
+			"vimeo" => "120538042",
+			"data-title" => "Vimeo Test",
+			"thumbnail" => "/thumbs/vid-thumb-showreel-1.jpg",
+			"text-image" => "/thumbs/vid-thumb-showreel-3.png",
+			"data-description" => "Cinematography, editing and motion graphics by <em>Joseph Madden</em>"
+		),
+
+		array(
+			"youtube" => "ZsqpY2zBrGY",
 			"data-title" => "Joseph Madden - Showreel 2014",
 			"thumbnail" => "/thumbs/vid-thumb-showreel-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-showreel-3.png",
 			"data-description" => "Cinematography, editing and motion graphics by <em>Joseph Madden</em>"
 		),
 
-		"_x2cz_Z6hFk" => array(
+		array(
+			"youtube" => "_x2cz_Z6hFk",
 			"data-title" => "IDA - Official Trailer (2014)",
 			"thumbnail" => "/thumbs/vid-thumb-ida-trailer-2.jpg",
 			"text-image" => "/thumbs/vid-thumb-ida-teaser-2.png",
@@ -26,7 +36,8 @@
 			<p>BTS photography: <em>Chris McGeehan</em></p>"
 		),
 
-		"3r2VNCzv_xU" => array(
+		array(
+			"youtube" => "3r2VNCzv_xU",
 			"data-title" => "B&Q Spring Summer Press Show 2014",
 			"thumbnail" => "/thumbs/vid-thumb-bqpress-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-bqpress-2.png",
@@ -35,7 +46,8 @@
 			<p>Production assistant: <em>Gemma Smith</em></p>"
 		),
 
-		"ThelyihlVYU" => array(
+		array(
+			"youtube" => "ThelyihlVYU",
 			"data-title" => "B&Q Autumn Winter Press Show 2014",
 			"thumbnail" => "/thumbs/vid-thumb-awpress-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-awpress-2.png",
@@ -44,7 +56,8 @@
 			<p>Production assistant: <em>Gemma Smith</em></p>
 			<p>Camera assistant: <em>Ida Wibe Hagen</em></p>"
 		),
-		"NqHNnp7o8RM" => array(
+		array(
+			"youtube" => "NqHNnp7o8RM",
 			"data-title" => "Kingfisher's One Team Product Show",
 			"thumbnail" => "/thumbs/vid-thumb-otps-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-otps-2.png",
@@ -53,7 +66,8 @@
 			<p>Shot and edited by <em>Joseph Madden</em></p>
 			<p>Production assistant: <em>Douglas Linssen</em></p>"
 		),
-		"pz4PiR03uHY" => array(
+		array(
+			"youtube" => "pz4PiR03uHY",
 			"data-title" => "Monkey Burgers",
 			"thumbnail" => "/thumbs/vid-thumb-monkey-burgers-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-monkey-burgers-2.png",
@@ -64,13 +78,15 @@
 			<p>Starring: Pete Williams and Joseph Madden</p>
 			<p>Runners: Ida Wibe Hagen and George Brereton</p>"
 		),
-		"-H96m0ZKnNM" => array(
+		array(
+			"youtube" => "H96m0ZKnNM",
 			"data-title" => "Lynnwood - Thomas Brown book launch",
 			"thumbnail" => "/thumbs/vid-thumb-tjb-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-tjb-2.png",
 			"data-description" => "I photographed Tom in late 2012 for the inside cover photo of his debut novel, <a href='http://tbrownonline.wordpress.com/books/' target='_blank'>Lynnwood</a>. So when he invited me to <a href='http://josephmadden.co.uk/photo' target='_blank'>photograph its launch at his local Waterstone's</a> the following June I was pretty excited, but definitely wasn’t expecting the kind of fanfare it received. The book sold out within the hour and I’ve never seen so many people in a bookshop at one time. An all round great day out in a beautiful little town in Oxfordshire.<p>I wasn't going to turn up and take photos without filming it as well, so made this little video of the event. Luckily the staff in Waterstone's were very friendly and let me set up camp behind the till with all my gear.</p>"
 		),
-		"9sRVFO_w1Zc" => array(
+		array(
+			"youtube" => "9sRVFO_w1Zc",
 			"data-title" => "IDA - Teaser Trailer (2012)",
 			"thumbnail" => "/thumbs/vid-thumb-ida-teaser-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-ida-teaser-2.png",
@@ -82,7 +98,8 @@
 			<p>Runner: <em><a href='http://chloephilippou.com' target='_blank'>Chloe Philippou</a></em>"
 		),
 
-		"cFfi1icNR6A" => array(
+		array(
+			"youtube" => "cFfi1icNR6A",
 			"data-title" => "Short Fuse",
 			"thumbnail" => "/thumbs/vid-thumb-short-fuse-2.jpg",
 			"text-image" => "/thumbs/vid-thumb-short-fuse-2.png",
@@ -96,7 +113,8 @@
 <p>Sound recording by <em>Rory Yeung and Stephen Hope</em></p>
 <p>Starring <em>Jenny-May Darcey, Asher Amis, Michael Absalom, Tom Maller</em></p>"
 		),
-		"RFYOg56RuKk" => array(
+		array(
+			"youtube" => "RFYOg56RuKk",
 			"data-title" => "MC Threat - Mars",
 			"thumbnail" => "/thumbs/vid-thumb-mc-threat-mars-1.jpg",
 			"text-image" => "/thumbs/vid-thumb-mc-threat-mars-2.png",
@@ -119,11 +137,12 @@
 		<hr/>
 		<div class="thumbs large">
 			<!-- This is a loop that generates all the video thumbs in the correct format -->
-			<? foreach ($videos as $id => $video): ?>
+			<? foreach ($videos as $video): ?>
 				<div class="video-thumb"
 					<?=$video['thumbnail']?"style='background-image: url(\"{$video['thumbnail']}\");'":""?>
 					<?=$video['data-title']?"data-title=\"{$video['data-title']}\"":""?>
-					<?=$id?"data-video=\"$id\"":""?>
+					<?=isset($video['youtube']) && $video['youtube'] ?"data-youtube=\"{$video['youtube']}\"":""?>
+					<?=isset($video['vimeo']) && $video['vimeo'] ?"data-vimeo=\"{$video['vimeo']}\"":""?>
 					<?=$video['data-description']?"data-description=\"{$video['data-description']}\"":""?>
 				>
 					<div class="video-thumb-inner">
