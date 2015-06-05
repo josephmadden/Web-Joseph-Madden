@@ -4,7 +4,7 @@
 <div class="container">
 
 	<div id="about-text">
-		<p><p>I’m a freelance filmmaker and photographer, currently based in London and the South Coast but regularly travelling across the country for work.</p></p>
+		<p><p>I’m a freelance video producer and photographer, currently based in London but regularly travelling across the country for work.</p></p>
 		<p>I’ve spent the past two years working as a producer and in-house videographer for a major retail business, creating corporate videos and shaping the way they use multimedia in their communications.</p>
 		<p>These days I work with advertising agencies, production companies and client businesses on advertorial shoots, covering events, and creating original promotional content.</p>
 		<p>I also love directing music videos, shooting for fashion, and working on short films. I’m always looking to get involved with exciting projects and meet new friends in the creative industries, so get in touch!</p>

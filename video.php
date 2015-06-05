@@ -5,6 +5,19 @@
 	$videos = array(
 
 		array(
+			"youtube" => "Y0r9Hya0wCM",
+			"data-title" => "Waves (Mr Probz Cover) - Sian Taylor",
+			"thumbnail" => "/thumbs/vid-thumb-sian-2.jpg",
+			"text-image" => "/thumbs/vid-thumb-sian-2.png",
+			"data-description" => "R&B singer Sian Taylor covers Mr Probz' 'Waves' for her 5-part Acoustic Sessions.</p>
+			<p>Directed and edited by Joseph Madden</p>
+			<p>Produced by Adam Gray</p>
+			<p>Camera Operator 1: Joseph Madden</p>
+			<p>Camera Operator 2: Xenia Zubova</p>
+			<p>Sound recorded and mixed by Lewis Daniel</p>"
+		),
+
+		array(
 			"youtube" => "ELdbhSKiRo4",
 			"data-title" => "Keep On Going - Ebonie G | Get Lifted Sessions",
 			"thumbnail" => "/thumbs/vid-thumb-ebonie-1.jpg",
@@ -73,6 +86,16 @@
 			<p>Starring: Josh Thompson, Joey Nathan and Nick Johnson</p>
 			<p>Make-Up Artist: Sian Warren</p>
 			<p>Runner: Tom Camfield</p>"
+		),
+
+array(
+			"vimeo" => "126893100",
+			"data-title" => "Tea for Two | Behind the Scenes",
+			"thumbnail" => "/thumbs/vid-thumb-t4t-1.jpg",
+			"text-image" => "/thumbs/vid-thumb-t4t-2.png",
+			"data-description" => "
+			Behind the scenes on short film <a href='http://teafortwofilm.com/' target='_blank'>Tea for Two</a>, a collaboration between <a href='http://www.porkchoppictures.com/' target='_blank'>Pork Chop Pictures</a> and <a href='http://miniproductions.co.uk/' target='_blank'>Mini Productions</a>.</p>
+			"
 		),
 
 		array(
